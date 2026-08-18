@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { computed, watchEffect } from 'vue';
-import { baseConfig } from '../../../../../app/utils/page-flow';
-import { findCategoryBySlug, subcategoryPath } from '../../../../../app/utils/taxonomy-routes';
+import { baseConfig } from '@global/app/utils/page-flow';
+import { findCategoryBySlug, subcategoryPath } from '@global/app/utils/taxonomy-routes';
 
 const route = useRoute();
 const router = useRouter();

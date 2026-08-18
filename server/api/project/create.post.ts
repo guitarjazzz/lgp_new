@@ -107,9 +107,14 @@ const copyTemplateAndGeneratePages = async (projectPath: string, overrides?: Par
   await mkdir(join(appPath, 'assets', 'css'), { recursive: true });
   await writeFile(join(appPath, 'assets', 'css', 'main.css'), '@import "tailwindcss";\n');
   await writeFile(join(projectPath, 'nuxt.config.ts'), `import tailwindcss from '@tailwindcss/vite';
+import { resolve } from 'node:path';
 
 export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
+  alias: {
+    '@': resolve(process.cwd(), 'app'),
+    '@global': resolve(process.cwd(), '..', '..')
+  },
   css: ['~/assets/css/main.css'],
   vite: {
     plugins: [tailwindcss()]

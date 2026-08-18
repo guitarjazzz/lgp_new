@@ -1,5 +1,5 @@
 import { computed } from 'vue';
-import { resolveTaxonomyRoute } from '../../../utils/taxonomy';
+import { resolveTaxonomyRoute } from '@/utils/taxonomy';
 
 /** Resolves taxonomy entities behind dynamic category routes. */
 export const useTaxonomyRoute = () => {

@@ -28,6 +28,19 @@ export default defineEventHandler(async (event) => {
     const projectPath = join(process.cwd(), 'projects', name);
     await stopProjectProcess(projectPath);
 
+    // Run npm install first
+    await new Promise<void>((resolve, reject) => {
+      const installProcess = spawn('npm', ['install'], {
+        cwd: projectPath,
+        stdio: 'pipe'
+      });
+      installProcess.on('close', (code) => {
+        if (code === 0) resolve();
+        else reject(new Error(`npm install failed with code ${code}`));
+      });
+      installProcess.on('error', reject);
+    });
+
     const port = await findAvailablePort();
     const link = `http://127.0.0.1:${port}`;
     

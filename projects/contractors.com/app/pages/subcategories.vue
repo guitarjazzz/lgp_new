@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { computed } from 'vue';
-import { baseConfig } from '../../../../app/utils/page-flow';
+import { baseConfig } from '@global/app/utils/page-flow';
 
 const answers = useFlowAnswers();
 const { goNext, goPrevious } = usePageFlow('subcategories');

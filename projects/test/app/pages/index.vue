@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { ref } from 'vue';
-import baseConfigRaw from '../base.conf?raw';
+import baseConfigRaw from '@/base.conf?raw';
 
 const benefits = [
     ['Decision support', 'Clear comparisons and practical guidance help you choose the right next step.'],
@@ -8,12 +8,12 @@ const benefits = [
     ['Expert guidance', 'Helpful resources and trusted local pros for every stage of the job.']
 ];
 
-const projects = [
-    ['Kitchen Remodel', 'https://images.unsplash.com/photo-1556912167-f556f1f39fdf?auto=format&fit=crop&w=1200&q=85'],
-    ['Bathroom Remodel', 'https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=900&q=85'],
-    ['Flooring', 'https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=900&q=85'],
-    ['Roofing', 'https://images.unsplash.com/photo-1621905252507-b35492cc74b4?auto=format&fit=crop&w=900&q=85']
-];
+const projectImages: Record<string, string> = {
+    'Kitchen Remodel': 'https://images.unsplash.com/photo-1556912167-f556f1f39fdf?auto=format&fit=crop&w=1200&q=85',
+    'Bathroom Remodeling': 'https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=900&q=85',
+    Flooring: 'https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=900&q=85',
+    Roofing: 'https://images.unsplash.com/photo-1621905252507-b35492cc74b4?auto=format&fit=crop&w=900&q=85'
+};
 
 const guides = [
     ['2025 kitchen remodel costs', 'Understand the details that change a renovation quote.'],
@@ -26,6 +26,12 @@ type Category = { id: string; name: string };
 
 const baseConfig = JSON.parse(baseConfigRaw) as { taxonomy?: { categories?: Category[] } };
 const categories = baseConfig.taxonomy?.categories ?? [];
+const projects = Object.entries(projectImages)
+    .map(([name, image]) => {
+        const category = categories.find((item) => item.name === name);
+        return category ? { category, image } : undefined;
+    })
+    .filter((project): project is { category: Category; image: string } => Boolean(project));
 const selectedCategory = ref('');
 const zipcode = ref('');
 const router = useRouter();
@@ -165,18 +171,19 @@ const startProject = () => {
                         <h2 class="mt-3 text-3xl font-black tracking-tight">Explore by project</h2>
                     </div>
                     <div class="mt-10 grid gap-3 md:grid-cols-2">
-                        <article v-for="([title, image], index) in projects" :key="title"
+                        <NuxtLink v-for="({ category, image }, index) in projects" :key="category.id + category.name"
                             class="group relative min-h-56 overflow-hidden md:min-h-64"
-                            :class="index === 0 ? 'md:row-span-2 md:min-h-[524px]' : ''"><img
+                            :class="index === 0 ? 'md:row-span-2 md:min-h-[524px]' : ''"
+                            :to="`/${categorySlug(category.name)}`"><img
                                 class="absolute inset-0 h-full w-full object-cover transition duration-500 group-hover:scale-105"
-                                :src="image" :alt="title">
+                                :src="image" :alt="category.name">
                             <div class="absolute inset-0 bg-gradient-to-t from-slate-950/85 to-transparent"></div>
                             <div class="absolute bottom-0 left-0 p-6 text-white">
-                                <h3 class="text-xl font-black">{{ title }}</h3>
+                                <h3 class="text-xl font-black">{{ category.name }}</h3>
                                 <p class="mt-1 text-xs">Find local pros for your next renovation</p>
                             </div><span
                                 class="absolute right-4 top-4 grid h-8 w-8 place-items-center rounded-full bg-white text-sm font-black">+</span>
-                        </article>
+                        </NuxtLink>
                     </div>
                 </div>
             </section>

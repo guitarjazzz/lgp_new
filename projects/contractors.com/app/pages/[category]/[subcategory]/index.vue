@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import { baseConfig } from '../../../../../../app/utils/page-flow';
-import { findCategoryBySlug, findSubcategoryBySlug } from '../../../../../../app/utils/taxonomy-routes';
+import { baseConfig } from '@global/app/utils/page-flow';
+import { findCategoryBySlug, findSubcategoryBySlug } from '@global/app/utils/taxonomy-routes';
 
 const route = useRoute();
 const answers = useFlowAnswers();
