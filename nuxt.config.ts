@@ -12,5 +12,10 @@ export default defineNuxtConfig({
   css: ['~/assets/css/main.css'],
   vite: {
     plugins: [tailwindcss()]
+  },
+  nitro: {
+    externals: {
+      traceInclude: ['projects/**', 'app/base.conf']
+    }
   }
 })

@@ -4,6 +4,7 @@ import { createServer } from 'node:net';
 import { join } from 'node:path';
 import { promisify } from 'node:util';
 import { saveProjectProcess, stopProjectProcess } from '../../utils/project-process';
+import { getProjectPath } from '../../utils/project-paths';
 
 const execFileAsync = promisify(execFile);
 
@@ -28,7 +29,7 @@ export default defineEventHandler(async (event) => {
     });
   }
 
-  const projectPath = join(process.cwd(), 'projects', name);
+  const projectPath = getProjectPath(name);
 
   try {
     await stopProjectProcess(projectPath);

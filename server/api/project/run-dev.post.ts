@@ -2,6 +2,7 @@ import { spawn } from 'node:child_process';
 import { connect, createServer } from 'node:net';
 import { join } from 'node:path';
 import { saveProjectProcess, stopProjectProcess } from '../../utils/project-process';
+import { getProjectPath } from '../../utils/project-paths';
 
 const findAvailablePort = () => new Promise<number>((resolve, reject) => {
   const server = createServer();
@@ -25,7 +26,7 @@ export default defineEventHandler(async (event) => {
   }
 
   try {
-    const projectPath = join(process.cwd(), 'projects', name);
+    const projectPath = getProjectPath(name);
     await stopProjectProcess(projectPath);
 
     // Run npm install first

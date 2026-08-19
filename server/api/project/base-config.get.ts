@@ -1,7 +1,6 @@
 import { readFile } from 'node:fs/promises';
-import { join } from 'node:path';
+import { getBaseConfigPath } from '../../utils/project-paths';
 
 export default defineEventHandler(async () => {
-  const configPath = join(process.cwd(), 'app', 'base.conf');
-  return JSON.parse(await readFile(configPath, 'utf8'));
+  return JSON.parse(await readFile(getBaseConfigPath(), 'utf8'));
 });

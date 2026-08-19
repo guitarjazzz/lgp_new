@@ -3,6 +3,7 @@ import { cp, mkdir, readFile, rm, writeFile } from 'node:fs/promises';
 import { connect, createServer } from 'node:net';
 import { join, resolve } from 'node:path';
 import { removeProjectDirectory, saveProjectProcess, stopProjectProcess } from '../../utils/project-process';
+import { getAppTemplatePath, getBaseConfigPath, getProjectPath, getProjectsRoot } from '../../utils/project-paths';
 
 const runCommand = (command: string, args: string[], cwd: string) => new Promise<void>((resolve, reject) => {
   const child = spawn(command, args, { cwd, stdio: ['ignore', 'pipe', 'pipe'] });
@@ -65,8 +66,8 @@ const escapeTemplateText = (value: string) => value
   .replaceAll("'", '&#39;');
 
 const copyTemplateAndGeneratePages = async (projectPath: string, overrides?: Partial<BaseConfig>) => {
-  const appTemplatePath = join(process.cwd(), 'app', 'templates', 'app');
-  const configPath = join(process.cwd(), 'app', 'base.conf');
+  const appTemplatePath = getAppTemplatePath();
+  const configPath = getBaseConfigPath();
   const baseConfig = JSON.parse(await readFile(configPath, 'utf8')) as BaseConfig;
   const config: BaseConfig = { ...baseConfig, ...overrides };
 
@@ -85,7 +86,7 @@ const copyTemplateAndGeneratePages = async (projectPath: string, overrides?: Par
   if (config.components && typeof config.components === 'object') {
     const allowedRoots = [
       join(process.cwd(), 'app', 'components'),
-      join(process.cwd(), 'app', 'templates', 'app', 'components')
+      join(appTemplatePath, 'components')
     ];
     await mkdir(join(appPath, 'components'), { recursive: true });
     for (const [componentName, componentConfig] of Object.entries(config.components)) {
@@ -166,8 +167,8 @@ export default defineEventHandler(async (event) => {
     });
   }
 
-  const projectPath = join(process.cwd(), 'projects', projectName);
-  await mkdir(join(process.cwd(), 'projects'), { recursive: true });
+  const projectPath = getProjectPath(projectName);
+  await mkdir(getProjectsRoot(), { recursive: true });
 
   try {
     await mkdir(projectPath);

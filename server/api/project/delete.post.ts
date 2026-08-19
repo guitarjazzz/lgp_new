@@ -1,5 +1,5 @@
-import path from 'node:path'
 import { removeProjectDirectory, stopProjectProcess } from '../../utils/project-process'
+import { getProjectPath } from '../../utils/project-paths'
 
 export default defineEventHandler(async (event) => {
   const body = await readBody<{ name?: unknown }>(event)
@@ -9,7 +9,7 @@ export default defineEventHandler(async (event) => {
     throw createError({ statusCode: 400, statusMessage: 'A valid project name is required' })
   }
 
-  const projectPath = path.join(process.cwd(), 'projects', projectName)
+  const projectPath = getProjectPath(projectName)
   await stopProjectProcess(projectPath)
   await removeProjectDirectory(projectPath)
   return { success: true, message: 'Project deleted successfully' }
