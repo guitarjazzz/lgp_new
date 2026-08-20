@@ -1,0 +1,6495 @@
+{
+	"questions": [
+		{
+			"id": "1",
+			"name": "HomeOwnership",
+			"text": "Home Ownership",
+			"collectionId": null,
+			"parentQuestionId": null,
+			"parentAnswerId": null,
+			"inputType": "Radio",
+			"show": true,
+			"required": true,
+			"answers": [
+				{
+					"id": "239",
+					"text": "I own this home",
+					"value": "OwnHome",
+					"default": false
+				},
+				{
+					"id": "240",
+					"text": "This is a commercial area",
+					"value": "CommercialProperty",
+					"default": false
+				}
+			]
+		},
+		{
+			"id": "2",
+			"name": "ProjectStatus",
+			"text": "Project Status",
+			"collectionId": null,
+			"parentQuestionId": null,
+			"parentAnswerId": null,
+			"inputType": "Radio",
+			"show": true,
+			"required": true,
+			"answers": [
+				{
+					"id": "241",
+					"text": "I'm ready to hire",
+					"value": "ReadyToHire",
+					"default": false
+				},
+				{
+					"id": "242",
+					"text": "I'm planning and budgeting",
+					"value": "PlanningAndBudgeting",
+					"default": false
+				}
+			]
+		},
+		{
+			"id": "3",
+			"name": "TimeFrame",
+			"text": "Desired Completion Date",
+			"collectionId": null,
+			"parentQuestionId": null,
+			"parentAnswerId": null,
+			"inputType": "Dropdown",
+			"show": true,
+			"required": true,
+			"answers": [
+				{
+					"id": "243",
+					"text": "Timing is Flexible",
+					"value": "Timing is Flexible",
+					"default": false
+				},
+				{
+					"id": "244",
+					"text": "1-2 Weeks",
+					"value": "1-2 Weeks",
+					"default": false
+				},
+				{
+					"id": "245",
+					"text": "3-4 Weeks",
+					"value": "3-4 Weeks",
+					"default": false
+				},
+				{
+					"id": "246",
+					"text": "5-6 Weeks",
+					"value": "5-6 Weeks",
+					"default": false
+				},
+				{
+					"id": "247",
+					"text": "7-8 Weeks",
+					"value": "7-8 Weeks",
+					"default": false
+				},
+				{
+					"id": "248",
+					"text": "9-12 Weeks",
+					"value": "9-12 Weeks",
+					"default": false
+				}
+			]
+		},
+		{
+			"id": "1000",
+			"name": "AdditionalInfo",
+			"text": "Describe Your Project",
+			"collectionId": null,
+			"parentQuestionId": null,
+			"parentAnswerId": null,
+			"inputType": "Textarea",
+			"show": true,
+			"required": false,
+			"answers": []
+		},
+		{
+			"id": "FirstName",
+			"name": "FirstName",
+			"text": "What is your first name?",
+			"collectionId": null,
+			"parentQuestionId": null,
+			"parentAnswerId": null,
+			"inputType": "Text",
+			"show": true,
+			"required": true,
+			"answers": []
+		},
+		{
+			"id": "LastName",
+			"name": "LastName",
+			"text": "What is your last name?",
+			"collectionId": null,
+			"parentQuestionId": null,
+			"parentAnswerId": null,
+			"inputType": "Text",
+			"show": true,
+			"required": true,
+			"answers": []
+		},
+		{
+			"id": "StreetAddress",
+			"name": "StreetAddress",
+			"text": "What is your street address?",
+			"collectionId": null,
+			"parentQuestionId": null,
+			"parentAnswerId": null,
+			"inputType": "Text",
+			"show": true,
+			"required": true,
+			"answers": []
+		},
+		{
+			"id": "City",
+			"name": "City",
+			"text": "What is your city?",
+			"collectionId": null,
+			"parentQuestionId": null,
+			"parentAnswerId": null,
+			"inputType": "Text",
+			"show": true,
+			"required": true,
+			"answers": []
+		},
+		{
+			"id": "State",
+			"name": "State",
+			"text": "What is your state?",
+			"collectionId": null,
+			"parentQuestionId": null,
+			"parentAnswerId": null,
+			"inputType": "Dropdown",
+			"show": true,
+			"required": true,
+			"answers": [
+				{
+					"id": "AK",
+					"text": "AK",
+					"value": "AK",
+					"default": false
+				},
+				{
+					"id": "AL",
+					"text": "AL",
+					"value": "AL",
+					"default": false
+				},
+				{
+					"id": "AR",
+					"text": "AR",
+					"value": "AR",
+					"default": false
+				},
+				{
+					"id": "AZ",
+					"text": "AZ",
+					"value": "AZ",
+					"default": false
+				},
+				{
+					"id": "CA",
+					"text": "CA",
+					"value": "CA",
+					"default": false
+				},
+				{
+					"id": "CO",
+					"text": "CO",
+					"value": "CO",
+					"default": false
+				},
+				{
+					"id": "CT",
+					"text": "CT",
+					"value": "CT",
+					"default": false
+				},
+				{
+					"id": "DC",
+					"text": "DC",
+					"value": "DC",
+					"default": false
+				},
+				{
+					"id": "DE",
+					"text": "DE",
+					"value": "DE",
+					"default": false
+				},
+				{
+					"id": "FL",
+					"text": "FL",
+					"value": "FL",
+					"default": false
+				},
+				{
+					"id": "GA",
+					"text": "GA",
+					"value": "GA",
+					"default": false
+				},
+				{
+					"id": "HI",
+					"text": "HI",
+					"value": "HI",
+					"default": false
+				},
+				{
+					"id": "IA",
+					"text": "IA",
+					"value": "IA",
+					"default": false
+				},
+				{
+					"id": "ID",
+					"text": "ID",
+					"value": "ID",
+					"default": false
+				},
+				{
+					"id": "IL",
+					"text": "IL",
+					"value": "IL",
+					"default": false
+				},
+				{
+					"id": "IN",
+					"text": "IN",
+					"value": "IN",
+					"default": false
+				},
+				{
+					"id": "KS",
+					"text": "KS",
+					"value": "KS",
+					"default": false
+				},
+				{
+					"id": "KY",
+					"text": "KY",
+					"value": "KY",
+					"default": false
+				},
+				{
+					"id": "LA",
+					"text": "LA",
+					"value": "LA",
+					"default": false
+				},
+				{
+					"id": "MA",
+					"text": "MA",
+					"value": "MA",
+					"default": false
+				},
+				{
+					"id": "MD",
+					"text": "MD",
+					"value": "MD",
+					"default": false
+				},
+				{
+					"id": "ME",
+					"text": "ME",
+					"value": "ME",
+					"default": false
+				},
+				{
+					"id": "MI",
+					"text": "MI",
+					"value": "MI",
+					"default": false
+				},
+				{
+					"id": "MN",
+					"text": "MN",
+					"value": "MN",
+					"default": false
+				},
+				{
+					"id": "MO",
+					"text": "MO",
+					"value": "MO",
+					"default": false
+				},
+				{
+					"id": "MS",
+					"text": "MS",
+					"value": "MS",
+					"default": false
+				},
+				{
+					"id": "MT",
+					"text": "MT",
+					"value": "MT",
+					"default": false
+				},
+				{
+					"id": "NC",
+					"text": "NC",
+					"value": "NC",
+					"default": false
+				},
+				{
+					"id": "ND",
+					"text": "ND",
+					"value": "ND",
+					"default": false
+				},
+				{
+					"id": "NE",
+					"text": "NE",
+					"value": "NE",
+					"default": false
+				},
+				{
+					"id": "NH",
+					"text": "NH",
+					"value": "NH",
+					"default": false
+				},
+				{
+					"id": "NJ",
+					"text": "NJ",
+					"value": "NJ",
+					"default": false
+				},
+				{
+					"id": "NM",
+					"text": "NM",
+					"value": "NM",
+					"default": false
+				},
+				{
+					"id": "NV",
+					"text": "NV",
+					"value": "NV",
+					"default": false
+				},
+				{
+					"id": "NY",
+					"text": "NY",
+					"value": "NY",
+					"default": false
+				},
+				{
+					"id": "OH",
+					"text": "OH",
+					"value": "OH",
+					"default": false
+				},
+				{
+					"id": "OK",
+					"text": "OK",
+					"value": "OK",
+					"default": false
+				},
+				{
+					"id": "OR",
+					"text": "OR",
+					"value": "OR",
+					"default": false
+				},
+				{
+					"id": "PA",
+					"text": "PA",
+					"value": "PA",
+					"default": false
+				},
+				{
+					"id": "RI",
+					"text": "RI",
+					"value": "RI",
+					"default": false
+				},
+				{
+					"id": "SC",
+					"text": "SC",
+					"value": "SC",
+					"default": false
+				},
+				{
+					"id": "SD",
+					"text": "SD",
+					"value": "SD",
+					"default": false
+				},
+				{
+					"id": "TN",
+					"text": "TN",
+					"value": "TN",
+					"default": false
+				},
+				{
+					"id": "TX",
+					"text": "TX",
+					"value": "TX",
+					"default": false
+				},
+				{
+					"id": "UT",
+					"text": "UT",
+					"value": "UT",
+					"default": false
+				},
+				{
+					"id": "VA",
+					"text": "VA",
+					"value": "VA",
+					"default": false
+				},
+				{
+					"id": "VT",
+					"text": "VT",
+					"value": "VT",
+					"default": false
+				},
+				{
+					"id": "WA",
+					"text": "WA",
+					"value": "WA",
+					"default": false
+				},
+				{
+					"id": "WI",
+					"text": "WI",
+					"value": "WI",
+					"default": false
+				},
+				{
+					"id": "WV",
+					"text": "WV",
+					"value": "WV",
+					"default": false
+				},
+				{
+					"id": "WY",
+					"text": "WY",
+					"value": "WY",
+					"default": false
+				}
+			]
+		},
+		{
+			"id": "ZipCode",
+			"name": "ZipCode",
+			"text": "What is your zip code?",
+			"collectionId": null,
+			"parentQuestionId": null,
+			"parentAnswerId": null,
+			"inputType": "Text",
+			"show": true,
+			"required": true,
+			"answers": []
+		},
+		{
+			"id": "Phone",
+			"name": "Phone",
+			"text": "What is your phone number?",
+			"collectionId": null,
+			"parentQuestionId": null,
+			"parentAnswerId": null,
+			"inputType": "Text",
+			"show": true,
+			"required": true,
+			"answers": []
+		},
+		{
+			"id": "Email",
+			"name": "Email",
+			"text": "What is your email address?",
+			"collectionId": null,
+			"parentQuestionId": null,
+			"parentAnswerId": null,
+			"inputType": "Text",
+			"show": true,
+			"required": true,
+			"answers": []
+		},
+		{
+			"id": "OptIn",
+			"name": "OptIn",
+			"text": "I would like to be notified of other money-saving offers",
+			"collectionId": null,
+			"parentQuestionId": null,
+			"parentAnswerId": null,
+			"inputType": "Checkbox",
+			"show": true,
+			"required": true,
+			"answers": [
+				{
+					"id": "1",
+					"text": "Yes",
+					"value": "1",
+					"default": false
+				},
+				{
+					"id": "0",
+					"text": "No",
+					"value": "0",
+					"default": false
+				}
+			]
+		}
+	],
+	"features": [],
+	"images": [
+		{
+			"name": "ColorMatchedUrl",
+			"value": ""
+		},
+		{
+			"name": "MultiViewUrl",
+			"value": ""
+		}
+	],
+	"success": true,
+	"version": "20.3",
+	"categories": [
+		{
+			"questions": [],
+			"features": [],
+			"images": [],
+			"id": "128",
+			"name": "Other",
+			"show": true,
+			"subCategories": []
+		},
+		{
+			"questions": [],
+			"features": [],
+			"images": [],
+			"id": "80",
+			"name": "Handyman",
+			"show": true,
+			"subCategories": []
+		},
+		{
+			"questions": [],
+			"features": [],
+			"images": [],
+			"id": "127",
+			"name": "Water Treatment",
+			"show": true,
+			"subCategories": [
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "259",
+					"name": "Water Filtration and Conditioning",
+					"show": true
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "260",
+					"name": "Whole Home Water System",
+					"show": true
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "258",
+					"name": "Water Softener",
+					"show": true
+				}
+			]
+		},
+		{
+			"questions": [],
+			"features": [],
+			"images": [],
+			"id": "65",
+			"name": "Carpentry",
+			"show": true,
+			"subCategories": [
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "19",
+					"name": "Built-In Furniture - Construct",
+					"show": true
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "20",
+					"name": "Exterior Trim - Install",
+					"show": true
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "21",
+					"name": "Framing - Install",
+					"show": true
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "22",
+					"name": "Interior Trim & Moldings - Install",
+					"show": true
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "219",
+					"name": "Custom Shelving",
+					"show": true
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "23",
+					"name": "Other",
+					"show": false
+				}
+			]
+		},
+		{
+			"questions": [],
+			"features": [],
+			"images": [],
+			"id": "66",
+			"name": "Carpet",
+			"show": true,
+			"subCategories": [
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "24",
+					"name": "Carpet Cleaning",
+					"show": true
+				},
+				{
+					"questions": [
+						{
+							"id": "169",
+							"name": "purchased_carpet",
+							"text": "Have you already purchased carpet?",
+							"collectionId": null,
+							"parentQuestionId": null,
+							"parentAnswerId": null,
+							"inputType": "Radio",
+							"show": true,
+							"required": true,
+							"answers": [
+								{
+									"id": "221",
+									"text": "Yes",
+									"value": "true",
+									"default": false
+								},
+								{
+									"id": "222",
+									"text": "No",
+									"value": "false",
+									"default": false
+								}
+							]
+						},
+						{
+							"id": "170",
+							"name": "emergency_need",
+							"text": "Is this an emergency need?",
+							"collectionId": null,
+							"parentQuestionId": null,
+							"parentAnswerId": null,
+							"inputType": "Radio",
+							"show": true,
+							"required": true,
+							"answers": [
+								{
+									"id": "223",
+									"text": "Yes",
+									"value": "true",
+									"default": false
+								},
+								{
+									"id": "224",
+									"text": "No",
+									"value": "false",
+									"default": false
+								}
+							]
+						}
+					],
+					"features": [],
+					"images": [],
+					"id": "25",
+					"name": "Install Carpets",
+					"show": true
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "26",
+					"name": "Other",
+					"show": false
+				}
+			]
+		},
+		{
+			"questions": [
+				{
+					"id": "121",
+					"name": "number_of_floors",
+					"text": "The number of floors above ground is:",
+					"collectionId": null,
+					"parentQuestionId": null,
+					"parentAnswerId": null,
+					"inputType": "Dropdown",
+					"show": true,
+					"required": true,
+					"answers": [
+						{
+							"id": "84",
+							"text": "One",
+							"value": "one",
+							"default": false
+						},
+						{
+							"id": "85",
+							"text": "Two",
+							"value": "two",
+							"default": false
+						},
+						{
+							"id": "86",
+							"text": "Three or more",
+							"value": "three_or_more",
+							"default": false
+						}
+					]
+				},
+				{
+					"id": "122",
+					"name": "asbestos_removal",
+					"text": "Asbestos removal needed:",
+					"collectionId": null,
+					"parentQuestionId": null,
+					"parentAnswerId": null,
+					"inputType": "Dropdown",
+					"show": true,
+					"required": true,
+					"answers": [
+						{
+							"id": "87",
+							"text": "Yes",
+							"value": "yes",
+							"default": false
+						},
+						{
+							"id": "88",
+							"text": "No",
+							"value": "no",
+							"default": false
+						}
+					]
+				}
+			],
+			"features": [],
+			"images": [],
+			"id": "89",
+			"name": "Siding",
+			"show": true,
+			"subCategories": [
+				{
+					"questions": [
+						{
+							"id": "126",
+							"name": "type_of_project",
+							"text": "What type of project is this?",
+							"collectionId": null,
+							"parentQuestionId": null,
+							"parentAnswerId": null,
+							"inputType": "Dropdown",
+							"show": true,
+							"required": true,
+							"answers": [
+								{
+									"id": "97",
+									"text": "Replace Existing Siding",
+									"value": "replace_existing_siding",
+									"default": false
+								},
+								{
+									"id": "98",
+									"text": "Siding for a New Addition",
+									"value": "siding_for_new_addition",
+									"default": false
+								},
+								{
+									"id": "99",
+									"text": "Siding for a New Home",
+									"value": "siding_for_new_home",
+									"default": false
+								},
+								{
+									"id": "100",
+									"text": "Repair Section(s) of Siding",
+									"value": "repair_sections",
+									"default": false
+								}
+							]
+						}
+					],
+					"features": [],
+					"images": [],
+					"id": "113",
+					"name": "Install Vinyl Siding",
+					"show": true
+				},
+				{
+					"questions": [
+						{
+							"id": "127",
+							"name": "MappedCategory",
+							"text": "What type of wood or fiber-cement siding?",
+							"collectionId": null,
+							"parentQuestionId": null,
+							"parentAnswerId": null,
+							"inputType": "Dropdown",
+							"show": true,
+							"required": true,
+							"answers": [
+								{
+									"id": "101",
+									"text": "Engineered Wood",
+									"value": "install_engineered_wood_siding",
+									"default": false
+								},
+								{
+									"id": "102",
+									"text": "Fiber Cement",
+									"value": "install_fiber_cement_siding",
+									"default": false
+								},
+								{
+									"id": "103",
+									"text": "Wood",
+									"value": "install_wood_siding",
+									"default": false
+								}
+							]
+						},
+						{
+							"id": "128",
+							"name": "type_of_project",
+							"text": "What type of project is this?",
+							"collectionId": null,
+							"parentQuestionId": null,
+							"parentAnswerId": null,
+							"inputType": "Dropdown",
+							"show": true,
+							"required": true,
+							"answers": [
+								{
+									"id": "104",
+									"text": "Replace Existing Siding",
+									"value": "replace_existing_siding",
+									"default": false
+								},
+								{
+									"id": "105",
+									"text": "Siding for a New Addition",
+									"value": "siding_for_new_addition",
+									"default": false
+								},
+								{
+									"id": "106",
+									"text": "Siding for a New Home",
+									"value": "siding_for_new_home",
+									"default": false
+								},
+								{
+									"id": "107",
+									"text": "Repair Section(s) of Siding",
+									"value": "repair_sections",
+									"default": false
+								}
+							]
+						}
+					],
+					"features": [],
+					"images": [],
+					"id": "114",
+					"name": "Install Wood or Fiber-Cement Siding",
+					"show": true
+				},
+				{
+					"questions": [
+						{
+							"id": "123",
+							"name": "MappedCategory",
+							"text": "What type of Brick or Stone siding?",
+							"collectionId": null,
+							"parentQuestionId": null,
+							"parentAnswerId": null,
+							"inputType": "Dropdown",
+							"show": true,
+							"required": true,
+							"answers": [
+								{
+									"id": "89",
+									"text": "Brick",
+									"value": "install_brick_siding",
+									"default": false
+								},
+								{
+									"id": "90",
+									"text": "Stone",
+									"value": "install_stone_siding",
+									"default": false
+								}
+							]
+						}
+					],
+					"features": [],
+					"images": [],
+					"id": "110",
+					"name": "Install Brick or Stone Siding",
+					"show": true
+				},
+				{
+					"questions": [
+						{
+							"id": "124",
+							"name": "MappedCategory",
+							"text": "What type of Metal siding?",
+							"collectionId": null,
+							"parentQuestionId": null,
+							"parentAnswerId": null,
+							"inputType": "Dropdown",
+							"show": true,
+							"required": true,
+							"answers": [
+								{
+									"id": "91",
+									"text": "Aluminum",
+									"value": "install_aluminum_siding",
+									"default": false
+								},
+								{
+									"id": "92",
+									"text": "Steel",
+									"value": "install_steel_siding",
+									"default": false
+								}
+							]
+						},
+						{
+							"id": "125",
+							"name": "type_of_project",
+							"text": "What type of project is this?",
+							"collectionId": null,
+							"parentQuestionId": null,
+							"parentAnswerId": null,
+							"inputType": "Dropdown",
+							"show": true,
+							"required": true,
+							"answers": [
+								{
+									"id": "93",
+									"text": "Replace Existing Siding",
+									"value": "replace_existing_siding",
+									"default": false
+								},
+								{
+									"id": "94",
+									"text": "Siding for a New Addition",
+									"value": "siding_for_new_addition",
+									"default": false
+								},
+								{
+									"id": "95",
+									"text": "Siding for a New Home",
+									"value": "siding_for_new_home",
+									"default": false
+								},
+								{
+									"id": "96",
+									"text": "Repair Section(s) of Siding",
+									"value": "repair_sections",
+									"default": false
+								}
+							]
+						}
+					],
+					"features": [],
+					"images": [],
+					"id": "111",
+					"name": "Install Metal Siding",
+					"show": true
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "112",
+					"name": "Install Stucco Siding",
+					"show": true
+				},
+				{
+					"questions": [
+						{
+							"id": "129",
+							"name": "type_of_project",
+							"text": "What type of project is this?",
+							"collectionId": null,
+							"parentQuestionId": null,
+							"parentAnswerId": null,
+							"inputType": "Dropdown",
+							"show": true,
+							"required": true,
+							"answers": [
+								{
+									"id": "108",
+									"text": "Replace Existing Siding",
+									"value": "replace_existing_siding",
+									"default": false
+								},
+								{
+									"id": "109",
+									"text": "Siding for a New Addition",
+									"value": "siding_for_new_addition",
+									"default": false
+								},
+								{
+									"id": "110",
+									"text": "Siding for a New Home",
+									"value": "siding_for_new_home",
+									"default": false
+								},
+								{
+									"id": "111",
+									"text": "Repair Section(s) of Siding",
+									"value": "repair_sections",
+									"default": false
+								}
+							]
+						},
+						{
+							"id": "130",
+							"name": "type_of_siding",
+							"text": "What type of siding will be replaced or repaired?",
+							"collectionId": null,
+							"parentQuestionId": null,
+							"parentAnswerId": null,
+							"inputType": "Dropdown",
+							"show": true,
+							"required": true,
+							"answers": [
+								{
+									"id": "112",
+									"text": "Wood or Fiber-Cement",
+									"value": "wood_or_fiber",
+									"default": false
+								},
+								{
+									"id": "113",
+									"text": "Traditional Stucco",
+									"value": "traditional_stucco",
+									"default": false
+								},
+								{
+									"id": "114",
+									"text": "Vinyl",
+									"value": "vinyl",
+									"default": false
+								},
+								{
+									"id": "115",
+									"text": "Synthetic Stucco",
+									"value": "synthetic_stucco",
+									"default": false
+								},
+								{
+									"id": "116",
+									"text": "Brick or Stone",
+									"value": "brick_or_stone",
+									"default": false
+								},
+								{
+									"id": "117",
+									"text": "Liquid (Spray-On)",
+									"value": "liquid",
+									"default": false
+								},
+								{
+									"id": "118",
+									"text": "Steel or Aluminum",
+									"value": "metal",
+									"default": false
+								}
+							]
+						}
+					],
+					"features": [],
+					"images": [],
+					"id": "115",
+					"name": "Other",
+					"show": false
+				}
+			]
+		},
+		{
+			"questions": [
+				{
+					"id": "152",
+					"name": "kitchen_floorplan",
+					"text": "Do you want to change the floorplan?",
+					"collectionId": null,
+					"parentQuestionId": null,
+					"parentAnswerId": null,
+					"inputType": "Radio",
+					"show": true,
+					"required": true,
+					"answers": [
+						{
+							"id": "174",
+							"text": "Yes",
+							"value": "true",
+							"default": false
+						},
+						{
+							"id": "175",
+							"text": "No",
+							"value": "false",
+							"default": false
+						}
+					]
+				},
+				{
+					"id": "153",
+					"name": "kitchen_cabinets",
+					"text": "Do you want to move or update the cabinets?",
+					"collectionId": null,
+					"parentQuestionId": null,
+					"parentAnswerId": null,
+					"inputType": "Radio",
+					"show": true,
+					"required": true,
+					"answers": [
+						{
+							"id": "176",
+							"text": "Yes",
+							"value": "true",
+							"default": false
+						},
+						{
+							"id": "177",
+							"text": "No",
+							"value": "false",
+							"default": false
+						}
+					]
+				},
+				{
+					"id": "154",
+					"name": "kitchen_appliances",
+					"text": "Do you want to move or update the appliances?",
+					"collectionId": null,
+					"parentQuestionId": null,
+					"parentAnswerId": null,
+					"inputType": "Radio",
+					"show": true,
+					"required": true,
+					"answers": [
+						{
+							"id": "178",
+							"text": "Yes",
+							"value": "true",
+							"default": false
+						},
+						{
+							"id": "179",
+							"text": "No",
+							"value": "false",
+							"default": false
+						}
+					]
+				},
+				{
+					"id": "155",
+					"name": "kitchen_countertops",
+					"text": "Do you want to update the countertops?",
+					"collectionId": null,
+					"parentQuestionId": null,
+					"parentAnswerId": null,
+					"inputType": "Radio",
+					"show": true,
+					"required": true,
+					"answers": [
+						{
+							"id": "180",
+							"text": "Yes",
+							"value": "true",
+							"default": false
+						},
+						{
+							"id": "181",
+							"text": "No",
+							"value": "false",
+							"default": false
+						}
+					]
+				},
+				{
+					"id": "156",
+					"name": "kitchen_sinks",
+					"text": "Do you want to update the sink(s)?",
+					"collectionId": null,
+					"parentQuestionId": null,
+					"parentAnswerId": null,
+					"inputType": "Radio",
+					"show": true,
+					"required": true,
+					"answers": [
+						{
+							"id": "182",
+							"text": "Yes",
+							"value": "true",
+							"default": false
+						},
+						{
+							"id": "183",
+							"text": "No",
+							"value": "false",
+							"default": false
+						}
+					]
+				},
+				{
+					"id": "157",
+					"name": "kitchen_flooring",
+					"text": "Do you want to update the flooring?",
+					"collectionId": null,
+					"parentQuestionId": null,
+					"parentAnswerId": null,
+					"inputType": "Radio",
+					"show": true,
+					"required": true,
+					"answers": [
+						{
+							"id": "184",
+							"text": "Yes",
+							"value": "true",
+							"default": false
+						},
+						{
+							"id": "185",
+							"text": "No",
+							"value": "false",
+							"default": false
+						}
+					]
+				},
+				{
+					"id": "158",
+					"name": "kitchen_lighting",
+					"text": "Do you want to update the lighting",
+					"collectionId": null,
+					"parentQuestionId": null,
+					"parentAnswerId": null,
+					"inputType": "Radio",
+					"show": true,
+					"required": true,
+					"answers": [
+						{
+							"id": "186",
+							"text": "Yes",
+							"value": "true",
+							"default": false
+						},
+						{
+							"id": "187",
+							"text": "No",
+							"value": "false",
+							"default": false
+						}
+					]
+				}
+			],
+			"features": [],
+			"images": [],
+			"id": "82",
+			"name": "Kitchen Remodeling",
+			"show": true,
+			"subCategories": [
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "243",
+					"name": "Partial Remodel (Cabinets and Countertops, Appliances, Sink, No Flooring)",
+					"show": false
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "241",
+					"name": "Full Remodel - With Floorplan Change",
+					"show": true
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "242",
+					"name": "Full Remodel - Without Floorplan Change",
+					"show": true
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "244",
+					"name": "Cabinets Only",
+					"show": true
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "245",
+					"name": "Countertops Install (Granite, Marble, Quartz, etc)",
+					"show": true
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "247",
+					"name": "Electrical Switches, Outlets & Fixtures",
+					"show": false
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "248",
+					"name": "Kitchen Island",
+					"show": false
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "246",
+					"name": "Backsplash",
+					"show": false
+				}
+			]
+		},
+		{
+			"questions": [],
+			"features": [],
+			"images": [],
+			"id": "84",
+			"name": "Moving",
+			"show": true,
+			"subCategories": [
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "249",
+					"name": "Storage",
+					"show": true
+				},
+				{
+					"questions": [
+						{
+							"id": "202",
+							"name": "movingdynamic_movedate",
+							"text": "Date of Move (MM/DD/YYYY)",
+							"collectionId": null,
+							"parentQuestionId": null,
+							"parentAnswerId": null,
+							"inputType": "Text",
+							"show": true,
+							"required": false,
+							"answers": []
+						},
+						{
+							"id": "203",
+							"name": "movingdynamic_movefrom",
+							"text": "Move From (Zipcode)",
+							"collectionId": null,
+							"parentQuestionId": null,
+							"parentAnswerId": null,
+							"inputType": "Text",
+							"show": true,
+							"required": false,
+							"answers": []
+						},
+						{
+							"id": "204",
+							"name": "movingdynamic_moveto",
+							"text": "Move To (Zipcode)",
+							"collectionId": null,
+							"parentQuestionId": null,
+							"parentAnswerId": null,
+							"inputType": "Text",
+							"show": true,
+							"required": false,
+							"answers": []
+						},
+						{
+							"id": "205",
+							"name": "movingdynamic_movesize",
+							"text": "Size of Move",
+							"collectionId": null,
+							"parentQuestionId": null,
+							"parentAnswerId": null,
+							"inputType": "Dropdown",
+							"show": false,
+							"required": false,
+							"answers": [
+								{
+									"id": "404",
+									"text": "1 Bedroom",
+									"value": "1 Bedroom",
+									"default": false
+								},
+								{
+									"id": "405",
+									"text": "2 Bedroom",
+									"value": "2 Bedroom",
+									"default": false
+								},
+								{
+									"id": "406",
+									"text": "3 Bedroom",
+									"value": "3 Bedroom",
+									"default": false
+								},
+								{
+									"id": "407",
+									"text": "4 Bedroom",
+									"value": "4 Bedroom",
+									"default": false
+								},
+								{
+									"id": "408",
+									"text": "5+ Bedroom",
+									"value": "5+ Bedroom",
+									"default": false
+								}
+							]
+						}
+					],
+					"features": [],
+					"images": [],
+					"id": "88",
+					"name": "Professional Moving Service - Long Distance / Out of State",
+					"show": true
+				},
+				{
+					"questions": [
+						{
+							"id": "210",
+							"name": "movingdynamic_movedate",
+							"text": "Date of Move (MM/DD/YYYY)",
+							"collectionId": null,
+							"parentQuestionId": null,
+							"parentAnswerId": null,
+							"inputType": "Text",
+							"show": false,
+							"required": false,
+							"answers": []
+						},
+						{
+							"id": "211",
+							"name": "movingdynamic_movefrom",
+							"text": "Move From (Zipcode)",
+							"collectionId": null,
+							"parentQuestionId": null,
+							"parentAnswerId": null,
+							"inputType": "Text",
+							"show": false,
+							"required": false,
+							"answers": []
+						},
+						{
+							"id": "212",
+							"name": "movingdynamic_moveto",
+							"text": "Move To (Zipcode)",
+							"collectionId": null,
+							"parentQuestionId": null,
+							"parentAnswerId": null,
+							"inputType": "Text",
+							"show": false,
+							"required": false,
+							"answers": []
+						},
+						{
+							"id": "213",
+							"name": "movingdynamic_movesize",
+							"text": "Size of Move",
+							"collectionId": null,
+							"parentQuestionId": null,
+							"parentAnswerId": null,
+							"inputType": "Dropdown",
+							"show": false,
+							"required": false,
+							"answers": [
+								{
+									"id": "414",
+									"text": "1 Bedroom",
+									"value": "1 Bedroom",
+									"default": false
+								},
+								{
+									"id": "415",
+									"text": "2 Bedroom",
+									"value": "2 Bedroom",
+									"default": false
+								},
+								{
+									"id": "416",
+									"text": "3 Bedroom",
+									"value": "3 Bedroom",
+									"default": false
+								},
+								{
+									"id": "417",
+									"text": "4 Bedroom",
+									"value": "4 Bedroom",
+									"default": false
+								},
+								{
+									"id": "418",
+									"text": "5+ Bedroom",
+									"value": "5+ Bedroom",
+									"default": false
+								}
+							]
+						}
+					],
+					"features": [],
+					"images": [],
+					"id": "156",
+					"name": "Professional Moving Service - Local",
+					"show": true
+				},
+				{
+					"questions": [
+						{
+							"id": "206",
+							"name": "movingdynamic_movedate",
+							"text": "Date of Move (MM/DD/YYYY)",
+							"collectionId": null,
+							"parentQuestionId": null,
+							"parentAnswerId": null,
+							"inputType": "Text",
+							"show": false,
+							"required": false,
+							"answers": []
+						},
+						{
+							"id": "207",
+							"name": "movingdynamic_movefrom",
+							"text": "Move From (Zipcode)",
+							"collectionId": null,
+							"parentQuestionId": null,
+							"parentAnswerId": null,
+							"inputType": "Text",
+							"show": false,
+							"required": false,
+							"answers": []
+						},
+						{
+							"id": "208",
+							"name": "movingdynamic_moveto",
+							"text": "Move To (Zipcode)",
+							"collectionId": null,
+							"parentQuestionId": null,
+							"parentAnswerId": null,
+							"inputType": "Text",
+							"show": false,
+							"required": false,
+							"answers": []
+						},
+						{
+							"id": "209",
+							"name": "movingdynamic_movesize",
+							"text": "Size of Move",
+							"collectionId": null,
+							"parentQuestionId": null,
+							"parentAnswerId": null,
+							"inputType": "Dropdown",
+							"show": false,
+							"required": false,
+							"answers": [
+								{
+									"id": "409",
+									"text": "1 Bedroom",
+									"value": "1 Bedroom",
+									"default": false
+								},
+								{
+									"id": "410",
+									"text": "2 Bedroom",
+									"value": "2 Bedroom",
+									"default": false
+								},
+								{
+									"id": "411",
+									"text": "3 Bedroom",
+									"value": "3 Bedroom",
+									"default": false
+								},
+								{
+									"id": "412",
+									"text": "4 Bedroom",
+									"value": "4 Bedroom",
+									"default": false
+								},
+								{
+									"id": "413",
+									"text": "5+ Bedroom",
+									"value": "5+ Bedroom",
+									"default": false
+								}
+							]
+						}
+					],
+					"features": [],
+					"images": [],
+					"id": "89",
+					"name": "Other",
+					"show": false
+				}
+			]
+		},
+		{
+			"questions": [],
+			"features": [],
+			"images": [],
+			"id": "83",
+			"name": "Landscaping",
+			"show": true,
+			"subCategories": [
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "79",
+					"name": "Foundation Drainage Install",
+					"show": true
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "80",
+					"name": "Fountain or Waterfall Install",
+					"show": true
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "81",
+					"name": "Gazebo or Freestanding Porch - Build or Install",
+					"show": true
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "84",
+					"name": "Pond Install",
+					"show": true
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "199",
+					"name": "Install Synthetic Grass",
+					"show": true
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "200",
+					"name": "Install Trees and Shrubs",
+					"show": true
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "82",
+					"name": "Greenhouse or Conservatorium - Build",
+					"show": true
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "83",
+					"name": "Landscaping for Yard or Garden",
+					"show": true
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "85",
+					"name": "Retaining Walls Over 3 ft",
+					"show": true
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "86",
+					"name": "Retaining Walls Under 3 ft",
+					"show": true
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "201",
+					"name": "Install or Repair Sprinklers and Irrigation",
+					"show": true
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "202",
+					"name": "Landscape Lighting",
+					"show": true
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "203",
+					"name": "Gravel or Loose Fill Paving",
+					"show": true
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "204",
+					"name": "Landscape Design",
+					"show": true
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "197",
+					"name": "Retaining Walls",
+					"show": false
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "198",
+					"name": "Full Install Yard or Garden",
+					"show": false
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "87",
+					"name": "Other",
+					"show": false
+				}
+			]
+		},
+		{
+			"questions": [],
+			"features": [],
+			"images": [],
+			"id": "76",
+			"name": "Fences",
+			"show": true,
+			"subCategories": [
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "62",
+					"name": "Install Aluminum or Steel Fence",
+					"show": true
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "233",
+					"name": "Install Vinyl Fence",
+					"show": true
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "234",
+					"name": "Install Stone Fence",
+					"show": true
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "63",
+					"name": "Install Wood Fence",
+					"show": true
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "64",
+					"name": "Repair Wood Fence",
+					"show": true
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "65",
+					"name": "Other",
+					"show": false
+				}
+			]
+		},
+		{
+			"questions": [],
+			"features": [],
+			"images": [],
+			"id": "70",
+			"name": "Decks and Porches",
+			"show": true,
+			"subCategories": [
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "38",
+					"name": "Build or Replace",
+					"show": true
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "39",
+					"name": "Repair",
+					"show": true
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "223",
+					"name": "Painting or Staining - Small Projects",
+					"show": true
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "224",
+					"name": "Metal Stairs and Railings - Install or Replace",
+					"show": true
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "226",
+					"name": "Awnings and Patio Covers",
+					"show": true
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "227",
+					"name": "Gazebo or Freestanding Porch - Build or Install",
+					"show": true
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "225",
+					"name": "Outdoor Kitchen",
+					"show": true
+				}
+			]
+		},
+		{
+			"questions": [],
+			"features": [],
+			"images": [],
+			"id": "74",
+			"name": "Electrical",
+			"show": true,
+			"subCategories": [
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "61",
+					"name": "Other",
+					"show": false
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "60",
+					"name": "Install Home Theater Wiring",
+					"show": true
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "230",
+					"name": "Electrical Switches, Outlets & Fixtures",
+					"show": true
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "232",
+					"name": "Install EV Outlets",
+					"show": true
+				},
+				{
+					"questions": [
+						{
+							"id": "165",
+							"name": "describe_electrical_project",
+							"text": "What best describes your electrical project?",
+							"collectionId": null,
+							"parentQuestionId": null,
+							"parentAnswerId": null,
+							"inputType": "Dropdown",
+							"show": true,
+							"required": true,
+							"answers": [
+								{
+									"id": "209",
+									"text": "Complete wiring for project",
+									"value": "wiring_for_addition",
+									"default": false
+								},
+								{
+									"id": "210",
+									"text": "Electrical panel upgrade only",
+									"value": "panel_upgrade",
+									"default": false
+								},
+								{
+									"id": "211",
+									"text": "Update or add fixtures/outlets",
+									"value": "update_fixtures_or_outlets",
+									"default": false
+								}
+							]
+						}
+					],
+					"features": [],
+					"images": [],
+					"id": "54",
+					"name": "Electrical Wiring or Panel Upgrade",
+					"show": true
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "55",
+					"name": "Install a Generator",
+					"show": true
+				},
+				{
+					"questions": [
+						{
+							"id": "166",
+							"name": "describe_electrical_project",
+							"text": "What best describes your electrical project?",
+							"collectionId": null,
+							"parentQuestionId": null,
+							"parentAnswerId": null,
+							"inputType": "Dropdown",
+							"show": true,
+							"required": true,
+							"answers": [
+								{
+									"id": "212",
+									"text": "Complete wiring for project",
+									"value": "wiring_for_addition",
+									"default": false
+								},
+								{
+									"id": "213",
+									"text": "Electrical panel upgrade only",
+									"value": "panel_upgrade",
+									"default": false
+								},
+								{
+									"id": "214",
+									"text": "Update or add fixtures/outlets",
+									"value": "update_fixtures_or_outlets",
+									"default": false
+								}
+							]
+						}
+					],
+					"features": [],
+					"images": [],
+					"id": "56",
+					"name": "Install Electrical for Home Addition or Remodel",
+					"show": true
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "57",
+					"name": "Install Home Automation System",
+					"show": true
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "231",
+					"name": "Handyman Small Projects",
+					"show": false
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "58",
+					"name": "Install Home Theater Surround Sound",
+					"show": true
+				},
+				{
+					"questions": [
+						{
+							"id": "167",
+							"name": "part_of_larger_remodel",
+							"text": "Is this project part of a larger remodel?",
+							"collectionId": null,
+							"parentQuestionId": null,
+							"parentAnswerId": null,
+							"inputType": "Radio",
+							"show": true,
+							"required": true,
+							"answers": [
+								{
+									"id": "215",
+									"text": "Yes",
+									"value": "true",
+									"default": false
+								},
+								{
+									"id": "216",
+									"text": "No",
+									"value": "false",
+									"default": false
+								}
+							]
+						}
+					],
+					"features": [],
+					"images": [],
+					"id": "59",
+					"name": "Install Home Theater System or Media Center",
+					"show": true
+				}
+			]
+		},
+		{
+			"questions": [],
+			"features": [],
+			"images": [],
+			"id": "72",
+			"name": "Doors",
+			"show": true,
+			"subCategories": [
+				{
+					"questions": [
+						{
+							"id": "163",
+							"name": "describe_door_project",
+							"text": "What best describes this door project?",
+							"collectionId": null,
+							"parentQuestionId": null,
+							"parentAnswerId": null,
+							"inputType": "Dropdown",
+							"show": true,
+							"required": true,
+							"answers": [
+								{
+									"id": "202",
+									"text": "Install new door",
+									"value": "install",
+									"default": false
+								},
+								{
+									"id": "203",
+									"text": "Repair existing door",
+									"value": "repair",
+									"default": false
+								},
+								{
+									"id": "204",
+									"text": "Replace with the same type",
+									"value": "replace_same",
+									"default": false
+								},
+								{
+									"id": "205",
+									"text": "Replace with a different type",
+									"value": "replace_different",
+									"default": false
+								}
+							]
+						},
+						{
+							"id": "164",
+							"name": "door_type",
+							"text": "What type of door would you like installed?",
+							"collectionId": null,
+							"parentQuestionId": null,
+							"parentAnswerId": null,
+							"inputType": "Dropdown",
+							"show": true,
+							"required": true,
+							"answers": [
+								{
+									"id": "206",
+									"text": "Exterior sliding door",
+									"value": "exterior_sliding",
+									"default": false
+								},
+								{
+									"id": "207",
+									"text": "Exterior",
+									"value": "exterior",
+									"default": false
+								},
+								{
+									"id": "208",
+									"text": "Interior",
+									"value": "interior",
+									"default": false
+								}
+							]
+						}
+					],
+					"features": [],
+					"images": [],
+					"id": "51",
+					"name": "Install Sliding Door(s)",
+					"show": true
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "228",
+					"name": "Custom Front Door and Entry",
+					"show": true
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "229",
+					"name": "Sliding Barn Door",
+					"show": true
+				},
+				{
+					"questions": [
+						{
+							"id": "159",
+							"name": "describe_door_project",
+							"text": "What best describes this door project?",
+							"collectionId": null,
+							"parentQuestionId": null,
+							"parentAnswerId": null,
+							"inputType": "Dropdown",
+							"show": true,
+							"required": true,
+							"answers": [
+								{
+									"id": "188",
+									"text": "Install new door",
+									"value": "install",
+									"default": false
+								},
+								{
+									"id": "189",
+									"text": "Repair existing door",
+									"value": "repair",
+									"default": false
+								},
+								{
+									"id": "190",
+									"text": "Replace with the same type",
+									"value": "replace_same",
+									"default": false
+								},
+								{
+									"id": "191",
+									"text": "Replace with a different type",
+									"value": "replace_different",
+									"default": false
+								}
+							]
+						},
+						{
+							"id": "160",
+							"name": "door_type",
+							"text": "What type of door would you like installed?",
+							"collectionId": null,
+							"parentQuestionId": null,
+							"parentAnswerId": null,
+							"inputType": "Dropdown",
+							"show": true,
+							"required": true,
+							"answers": [
+								{
+									"id": "192",
+									"text": "Exterior sliding door",
+									"value": "exterior_sliding",
+									"default": false
+								},
+								{
+									"id": "193",
+									"text": "Exterior",
+									"value": "exterior",
+									"default": false
+								},
+								{
+									"id": "194",
+									"text": "Interior",
+									"value": "interior",
+									"default": false
+								}
+							]
+						}
+					],
+					"features": [],
+					"images": [],
+					"id": "49",
+					"name": "Install Exterior Doors",
+					"show": true
+				},
+				{
+					"questions": [
+						{
+							"id": "161",
+							"name": "describe_door_project",
+							"text": "What best describes this door project?",
+							"collectionId": null,
+							"parentQuestionId": null,
+							"parentAnswerId": null,
+							"inputType": "Dropdown",
+							"show": true,
+							"required": true,
+							"answers": [
+								{
+									"id": "195",
+									"text": "Install new door",
+									"value": "install",
+									"default": false
+								},
+								{
+									"id": "196",
+									"text": "Repair existing door",
+									"value": "repair",
+									"default": false
+								},
+								{
+									"id": "197",
+									"text": "Replace with the same type",
+									"value": "replace_same",
+									"default": false
+								},
+								{
+									"id": "198",
+									"text": "Replace with a different type",
+									"value": "replace_different",
+									"default": false
+								}
+							]
+						},
+						{
+							"id": "162",
+							"name": "door_type",
+							"text": "What type of door would you like installed?",
+							"collectionId": null,
+							"parentQuestionId": null,
+							"parentAnswerId": null,
+							"inputType": "Dropdown",
+							"show": true,
+							"required": true,
+							"answers": [
+								{
+									"id": "199",
+									"text": "Exterior sliding door",
+									"value": "exterior_sliding",
+									"default": false
+								},
+								{
+									"id": "200",
+									"text": "Exterior",
+									"value": "exterior",
+									"default": false
+								},
+								{
+									"id": "201",
+									"text": "Interior",
+									"value": "interior",
+									"default": false
+								}
+							]
+						}
+					],
+					"features": [],
+					"images": [],
+					"id": "50",
+					"name": "Install Interior Doors",
+					"show": true
+				}
+			]
+		},
+		{
+			"questions": [],
+			"features": [],
+			"images": [],
+			"id": "77",
+			"name": "Flooring",
+			"show": true,
+			"subCategories": [
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "174",
+					"name": "Install Laminate, Vinyl, or Engineered Hardwood",
+					"show": false
+				},
+				{
+					"questions": [
+						{
+							"id": "171",
+							"name": "purchased_material",
+							"text": "Have you already purchased material?",
+							"collectionId": null,
+							"parentQuestionId": null,
+							"parentAnswerId": null,
+							"inputType": "Radio",
+							"show": true,
+							"required": true,
+							"answers": [
+								{
+									"id": "225",
+									"text": "Yes",
+									"value": "true",
+									"default": false
+								},
+								{
+									"id": "226",
+									"text": "No",
+									"value": "false",
+									"default": false
+								}
+							]
+						}
+					],
+					"features": [],
+					"images": [],
+					"id": "66",
+					"name": "Install Simulated Wood or Stone Laminate Flooring",
+					"show": true
+				},
+				{
+					"questions": [
+						{
+							"id": "176",
+							"name": "emergency_need",
+							"text": "Is this an emergency need?",
+							"collectionId": null,
+							"parentQuestionId": null,
+							"parentAnswerId": null,
+							"inputType": "Radio",
+							"show": true,
+							"required": true,
+							"answers": [
+								{
+									"id": "237",
+									"text": "Yes",
+									"value": "true",
+									"default": false
+								},
+								{
+									"id": "238",
+									"text": "No",
+									"value": "false",
+									"default": false
+								}
+							]
+						}
+					],
+					"features": [],
+					"images": [],
+					"id": "68",
+					"name": "Refinish Wood Flooring",
+					"show": true
+				},
+				{
+					"questions": [
+						{
+							"id": "172",
+							"name": "purchased_material",
+							"text": "Have you already purchased material?",
+							"collectionId": null,
+							"parentQuestionId": null,
+							"parentAnswerId": null,
+							"inputType": "Radio",
+							"show": true,
+							"required": true,
+							"answers": [
+								{
+									"id": "227",
+									"text": "Yes",
+									"value": "true",
+									"default": false
+								},
+								{
+									"id": "228",
+									"text": "No",
+									"value": "false",
+									"default": false
+								}
+							]
+						},
+						{
+							"id": "173",
+							"name": "emergency_need",
+							"text": "Is this an emergency need?",
+							"collectionId": null,
+							"parentQuestionId": null,
+							"parentAnswerId": null,
+							"inputType": "Radio",
+							"show": true,
+							"required": true,
+							"answers": [
+								{
+									"id": "229",
+									"text": "Yes",
+									"value": "true",
+									"default": false
+								},
+								{
+									"id": "230",
+									"text": "No",
+									"value": "false",
+									"default": false
+								}
+							]
+						},
+						{
+							"id": "174",
+							"name": "wood_flooring_type",
+							"text": "Choose the type of wood flooring you need:",
+							"collectionId": null,
+							"parentQuestionId": null,
+							"parentAnswerId": null,
+							"inputType": "Dropdown",
+							"show": true,
+							"required": true,
+							"answers": [
+								{
+									"id": "231",
+									"text": "Want recommendation",
+									"value": "want_recommendation",
+									"default": false
+								},
+								{
+									"id": "232",
+									"text": "Natural wood",
+									"value": "natural_wood",
+									"default": false
+								},
+								{
+									"id": "233",
+									"text": "Wood laminate",
+									"value": "wood_laminate",
+									"default": false
+								}
+							]
+						},
+						{
+							"id": "175",
+							"name": "describe_wood_flooring_project",
+							"text": "What best describes the project?",
+							"collectionId": null,
+							"parentQuestionId": null,
+							"parentAnswerId": null,
+							"inputType": "Dropdown",
+							"show": true,
+							"required": true,
+							"answers": [
+								{
+									"id": "234",
+									"text": "Install new flooring",
+									"value": "install_new_wood_flooring",
+									"default": false
+								},
+								{
+									"id": "235",
+									"text": "Repair existing flooring",
+									"value": "repair_wood_flooring",
+									"default": false
+								},
+								{
+									"id": "236",
+									"text": "Refinish existing flooring",
+									"value": "refinish_wood_flooring",
+									"default": false
+								}
+							]
+						}
+					],
+					"features": [],
+					"images": [],
+					"id": "67",
+					"name": "Install Wood Flooring",
+					"show": true
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "69",
+					"name": "Other",
+					"show": false
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "175",
+					"name": "Install Hardwood",
+					"show": false
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "176",
+					"name": "Refinish Hardwood Flooring",
+					"show": false
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "177",
+					"name": "Install Stone, Marble, or Travertine Flooring",
+					"show": false
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "178",
+					"name": "Flooring Repair",
+					"show": false
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "261",
+					"name": "Install Vinyl Flooring",
+					"show": true
+				}
+			]
+		},
+		{
+			"questions": [],
+			"features": [],
+			"images": [],
+			"id": "60",
+			"name": "Additions and Remodels",
+			"show": true,
+			"subCategories": [
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "1",
+					"name": "Additions - Closet",
+					"show": true
+				},
+				{
+					"questions": [
+						{
+							"id": "141",
+							"name": "describe_project",
+							"text": "What best describes this project?",
+							"collectionId": null,
+							"parentQuestionId": null,
+							"parentAnswerId": null,
+							"inputType": "Dropdown",
+							"show": true,
+							"required": true,
+							"answers": [
+								{
+									"id": "144",
+									"text": "Design and build",
+									"value": "design_and_build",
+									"default": false
+								},
+								{
+									"id": "145",
+									"text": "Build - Use existing drawings",
+									"value": "build_use_existing",
+									"default": false
+								},
+								{
+									"id": "146",
+									"text": "Design - Create drawings",
+									"value": "design_create",
+									"default": false
+								}
+							]
+						}
+					],
+					"features": [],
+					"images": [],
+					"id": "2",
+					"name": "Additions - Garage",
+					"show": true
+				},
+				{
+					"questions": [
+						{
+							"id": "142",
+							"name": "describe_project",
+							"text": "What best describes this project?",
+							"collectionId": null,
+							"parentQuestionId": null,
+							"parentAnswerId": null,
+							"inputType": "Dropdown",
+							"show": true,
+							"required": true,
+							"answers": [
+								{
+									"id": "147",
+									"text": "Design and build",
+									"value": "design_and_build",
+									"default": false
+								},
+								{
+									"id": "148",
+									"text": "Build - Use existing drawings",
+									"value": "build_use_existing",
+									"default": false
+								},
+								{
+									"id": "149",
+									"text": "Design - Create drawings",
+									"value": "design_create",
+									"default": false
+								}
+							]
+						}
+					],
+					"features": [],
+					"images": [],
+					"id": "3",
+					"name": "Additions - To Existing Structure",
+					"show": true
+				},
+				{
+					"questions": [
+						{
+							"id": "143",
+							"name": "building_type",
+							"text": "What type of building is involved?",
+							"collectionId": null,
+							"parentQuestionId": null,
+							"parentAnswerId": null,
+							"inputType": "Dropdown",
+							"show": true,
+							"required": true,
+							"answers": [
+								{
+									"id": "150",
+									"text": "Single family home",
+									"value": "single_family",
+									"default": false
+								},
+								{
+									"id": "151",
+									"text": "Condo, apartment or town house",
+									"value": "condo_townhouse",
+									"default": false
+								},
+								{
+									"id": "152",
+									"text": "Office building",
+									"value": "office_building",
+									"default": false
+								},
+								{
+									"id": "153",
+									"text": "Retail store",
+									"value": "retail",
+									"default": false
+								},
+								{
+									"id": "154",
+									"text": "Restaurant",
+									"value": "restaurant",
+									"default": false
+								},
+								{
+									"id": "155",
+									"text": "Other",
+									"value": "other",
+									"default": false
+								}
+							]
+						}
+					],
+					"features": [],
+					"images": [],
+					"id": "4",
+					"name": "Remodel - Accommodate a Disability",
+					"show": true
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "5",
+					"name": "Remodel - Basement",
+					"show": true
+				},
+				{
+					"questions": [
+						{
+							"id": "144",
+							"name": "describe_garage_project",
+							"text": "What best describes this garage remodel?",
+							"collectionId": null,
+							"parentQuestionId": null,
+							"parentAnswerId": null,
+							"inputType": "Dropdown",
+							"show": true,
+							"required": true,
+							"answers": [
+								{
+									"id": "156",
+									"text": "Build a new garage",
+									"value": "build_new",
+									"default": false
+								},
+								{
+									"id": "157",
+									"text": "Completely remodel garage",
+									"value": "remodel",
+									"default": false
+								},
+								{
+									"id": "158",
+									"text": "Enlarge existing garage",
+									"value": "enlarge",
+									"default": false
+								},
+								{
+									"id": "159",
+									"text": "Organize garage space",
+									"value": "organize",
+									"default": false
+								}
+							]
+						},
+						{
+							"id": "145",
+							"name": "garage_cabinets",
+							"text": "Do you want to add or update the cabinets/shelving?",
+							"collectionId": null,
+							"parentQuestionId": null,
+							"parentAnswerId": null,
+							"inputType": "Radio",
+							"show": true,
+							"required": true,
+							"answers": [
+								{
+									"id": "160",
+									"text": "Yes",
+									"value": "true",
+									"default": false
+								},
+								{
+									"id": "161",
+									"text": "No",
+									"value": "false",
+									"default": false
+								}
+							]
+						},
+						{
+							"id": "146",
+							"name": "garage_insulation",
+							"text": "Do you want to add insulation?",
+							"collectionId": null,
+							"parentQuestionId": null,
+							"parentAnswerId": null,
+							"inputType": "Radio",
+							"show": true,
+							"required": true,
+							"answers": [
+								{
+									"id": "162",
+									"text": "Yes",
+									"value": "true",
+									"default": false
+								},
+								{
+									"id": "163",
+									"text": "No",
+									"value": "false",
+									"default": false
+								}
+							]
+						},
+						{
+							"id": "147",
+							"name": "garage_flooring",
+							"text": "Do you want to update the flooring?",
+							"collectionId": null,
+							"parentQuestionId": null,
+							"parentAnswerId": null,
+							"inputType": "Radio",
+							"show": true,
+							"required": true,
+							"answers": [
+								{
+									"id": "164",
+									"text": "Yes",
+									"value": "true",
+									"default": false
+								},
+								{
+									"id": "165",
+									"text": "No",
+									"value": "false",
+									"default": false
+								}
+							]
+						},
+						{
+							"id": "148",
+							"name": "garage_electrical",
+							"text": "Do you want to update the lighting or electrical fixtures?",
+							"collectionId": null,
+							"parentQuestionId": null,
+							"parentAnswerId": null,
+							"inputType": "Radio",
+							"show": true,
+							"required": true,
+							"answers": [
+								{
+									"id": "166",
+									"text": "Yes",
+									"value": "true",
+									"default": false
+								},
+								{
+									"id": "167",
+									"text": "No",
+									"value": "false",
+									"default": false
+								}
+							]
+						},
+						{
+							"id": "149",
+							"name": "garage_walls",
+							"text": "Do you want to add or remove walls/drywall?",
+							"collectionId": null,
+							"parentQuestionId": null,
+							"parentAnswerId": null,
+							"inputType": "Radio",
+							"show": true,
+							"required": true,
+							"answers": [
+								{
+									"id": "168",
+									"text": "Yes",
+									"value": "true",
+									"default": false
+								},
+								{
+									"id": "169",
+									"text": "No",
+									"value": "false",
+									"default": false
+								}
+							]
+						},
+						{
+							"id": "150",
+							"name": "garage_doors",
+							"text": "Do you want to update the garage doors?",
+							"collectionId": null,
+							"parentQuestionId": null,
+							"parentAnswerId": null,
+							"inputType": "Radio",
+							"show": true,
+							"required": true,
+							"answers": [
+								{
+									"id": "170",
+									"text": "Yes",
+									"value": "true",
+									"default": false
+								},
+								{
+									"id": "171",
+									"text": "No",
+									"value": "false",
+									"default": false
+								}
+							]
+						}
+					],
+					"features": [],
+					"images": [],
+					"id": "6",
+					"name": "Remodel - Garage",
+					"show": true
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "7",
+					"name": "Remodel - Multiple Rooms",
+					"show": true
+				},
+				{
+					"questions": [
+						{
+							"id": "151",
+							"name": "needs_financing",
+							"text": "Do you need financing?",
+							"collectionId": null,
+							"parentQuestionId": null,
+							"parentAnswerId": null,
+							"inputType": "Radio",
+							"show": true,
+							"required": true,
+							"answers": [
+								{
+									"id": "172",
+									"text": "Yes",
+									"value": "true",
+									"default": false
+								},
+								{
+									"id": "173",
+									"text": "No",
+									"value": "false",
+									"default": false
+								}
+							]
+						}
+					],
+					"features": [],
+					"images": [],
+					"id": "8",
+					"name": "Other",
+					"show": false
+				}
+			]
+		},
+		{
+			"questions": [],
+			"features": [],
+			"images": [],
+			"id": "86",
+			"name": "Pest Control",
+			"show": true,
+			"subCategories": [
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "205",
+					"name": "Bug and Insects",
+					"show": true
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "206",
+					"name": "Rodents and Animal Removal",
+					"show": true
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "207",
+					"name": "Mosquitos",
+					"show": true
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "208",
+					"name": "Termite",
+					"show": true
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "209",
+					"name": "Bedbugs",
+					"show": true
+				}
+			]
+		},
+		{
+			"questions": [],
+			"features": [],
+			"images": [],
+			"id": "61",
+			"name": "Appraisers and Home Inspectors",
+			"show": true,
+			"subCategories": [
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "9",
+					"name": "Appraisers - Real Estate",
+					"show": true
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "10",
+					"name": "Inspection - General Home",
+					"show": true
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "11",
+					"name": "Inspection - Roofing",
+					"show": true
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "12",
+					"name": "Other",
+					"show": false
+				}
+			]
+		},
+		{
+			"questions": [],
+			"features": [],
+			"images": [],
+			"id": "96",
+			"name": "Windows",
+			"show": true,
+			"subCategories": [
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "170",
+					"name": "Install 5+ Windows",
+					"show": true
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "171",
+					"name": "Install 2 Windows",
+					"show": true
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "172",
+					"name": "Install 3 - 5 Windows",
+					"show": true
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "173",
+					"name": "Window Glass - Install or Replace",
+					"show": true
+				},
+				{
+					"questions": [
+						{
+							"id": "131",
+							"name": "number_windows",
+							"text": "Number of windows:",
+							"collectionId": null,
+							"parentQuestionId": null,
+							"parentAnswerId": null,
+							"inputType": "Dropdown",
+							"show": true,
+							"required": true,
+							"answers": [
+								{
+									"id": "119",
+									"text": "1",
+									"value": "one",
+									"default": false
+								},
+								{
+									"id": "120",
+									"text": "2",
+									"value": "two",
+									"default": false
+								},
+								{
+									"id": "121",
+									"text": "3 - 5",
+									"value": "three_to_five",
+									"default": false
+								},
+								{
+									"id": "122",
+									"text": "6 - 9",
+									"value": "six_to_nine",
+									"default": false
+								},
+								{
+									"id": "123",
+									"text": "10+",
+									"value": "ten_plus",
+									"default": false
+								}
+							]
+						}
+					],
+					"features": [],
+					"images": [],
+					"id": "128",
+					"name": "Install Multiple Windows",
+					"show": true
+				},
+				{
+					"questions": [
+						{
+							"id": "133",
+							"name": "number_windows",
+							"text": "Number of windows:",
+							"collectionId": null,
+							"parentQuestionId": null,
+							"parentAnswerId": null,
+							"inputType": "Hidden",
+							"show": true,
+							"required": true,
+							"answers": [
+								{
+									"id": "129",
+									"text": "1",
+									"value": "one",
+									"default": false
+								}
+							]
+						}
+					],
+					"features": [],
+					"images": [],
+					"id": "129",
+					"name": "Install One Window",
+					"show": true
+				},
+				{
+					"questions": [
+						{
+							"id": "132",
+							"name": "number_windows",
+							"text": "Number of windows:",
+							"collectionId": null,
+							"parentQuestionId": null,
+							"parentAnswerId": null,
+							"inputType": "Dropdown",
+							"show": true,
+							"required": true,
+							"answers": [
+								{
+									"id": "124",
+									"text": "1",
+									"value": "one",
+									"default": false
+								},
+								{
+									"id": "125",
+									"text": "2",
+									"value": "two",
+									"default": false
+								},
+								{
+									"id": "126",
+									"text": "3 - 5",
+									"value": "three_to_five",
+									"default": false
+								},
+								{
+									"id": "127",
+									"text": "6 - 9",
+									"value": "six_to_nine",
+									"default": false
+								},
+								{
+									"id": "128",
+									"text": "10+",
+									"value": "ten_plus",
+									"default": false
+								}
+							]
+						}
+					],
+					"features": [],
+					"images": [],
+					"id": "130",
+					"name": "Install Storm Windows",
+					"show": true
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "131",
+					"name": "Window Cleaning",
+					"show": true
+				}
+			]
+		},
+		{
+			"questions": [],
+			"features": [],
+			"images": [],
+			"id": "68",
+			"name": "Concrete and Masonry",
+			"show": true,
+			"subCategories": [
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "33",
+					"name": "Driveways & Floors - Install",
+					"show": true
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "32",
+					"name": "Brick and Stone Patios, Walks & Steps",
+					"show": true
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "34",
+					"name": "Driveways & Floors - Install Interlocking Paving",
+					"show": true
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "35",
+					"name": "Patios, Walks & Steps - Install Interlocking Paving",
+					"show": true
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "36",
+					"name": "Stamped Concrete - Install",
+					"show": true
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "37",
+					"name": "Other",
+					"show": false
+				}
+			]
+		},
+		{
+			"questions": [],
+			"features": [],
+			"images": [],
+			"id": "97",
+			"name": "Home Security",
+			"show": true,
+			"subCategories": [
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "136",
+					"name": "Business Alarm or Security System - Install",
+					"show": true
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "132",
+					"name": "Residential Alarm or Security System - Install",
+					"show": true
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "133",
+					"name": "Surveillance Cameras - Install or Repair",
+					"show": true
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "134",
+					"name": "Residential Alarm or Security System - Monitor",
+					"show": true
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "257",
+					"name": "Smart Home Automation",
+					"show": true
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "135",
+					"name": "Other",
+					"show": false
+				}
+			]
+		},
+		{
+			"questions": [
+				{
+					"id": "189",
+					"name": "electrical_average_bill",
+					"text": "What is your average monthly electricity bill?",
+					"collectionId": null,
+					"parentQuestionId": null,
+					"parentAnswerId": null,
+					"inputType": "Dropdown",
+					"show": true,
+					"required": false,
+					"answers": [
+						{
+							"id": "280",
+							"text": "0-100",
+							"value": "zero_to_one_hundred",
+							"default": false
+						},
+						{
+							"id": "281",
+							"text": "101-150",
+							"value": "one_hundred_one_to_one_hundred_fifty",
+							"default": false
+						},
+						{
+							"id": "282",
+							"text": "151-200",
+							"value": "one_hundred_fifty_one_to_two_hundred",
+							"default": false
+						},
+						{
+							"id": "283",
+							"text": "201-300",
+							"value": "two_hundred_one_to_three_hundred",
+							"default": false
+						},
+						{
+							"id": "284",
+							"text": "301-400",
+							"value": "three_hundred_one_to_four_hundred",
+							"default": false
+						},
+						{
+							"id": "285",
+							"text": "401-500+",
+							"value": "four_hundred_one_to_five_hundred_plus",
+							"default": false
+						}
+					]
+				},
+				{
+					"id": "190",
+					"name": "electrical_roof_sun_cover_area",
+					"text": "How much sun does your roof get on average?",
+					"collectionId": null,
+					"parentQuestionId": null,
+					"parentAnswerId": null,
+					"inputType": "Dropdown",
+					"show": true,
+					"required": false,
+					"answers": [
+						{
+							"id": "286",
+							"text": "Full sun most of the day",
+							"value": "full_sun_most_of_the_day",
+							"default": false
+						},
+						{
+							"id": "287",
+							"text": "Partially Shaded",
+							"value": "partially_shaded",
+							"default": false
+						},
+						{
+							"id": "288",
+							"text": "Shaded most of the day",
+							"value": "shaded_most_of_the_day",
+							"default": false
+						},
+						{
+							"id": "290",
+							"text": "Not sure",
+							"value": "not_sure",
+							"default": false
+						}
+					]
+				},
+				{
+					"id": "191",
+					"name": "electrical_utility_provider",
+					"text": "Utility Provider",
+					"collectionId": null,
+					"parentQuestionId": null,
+					"parentAnswerId": null,
+					"inputType": "Text",
+					"show": true,
+					"required": false,
+					"answers": []
+				},
+				{
+					"id": "192",
+					"name": "age_of_roof",
+					"text": "How old is your roof?",
+					"collectionId": null,
+					"parentQuestionId": null,
+					"parentAnswerId": null,
+					"inputType": "Dropdown",
+					"show": true,
+					"required": false,
+					"answers": [
+						{
+							"id": "294",
+							"text": "0-9 Years",
+							"value": "zero_to_nine",
+							"default": false
+						},
+						{
+							"id": "295",
+							"text": "10-20 Years",
+							"value": "ten_to_twenty",
+							"default": false
+						},
+						{
+							"id": "296",
+							"text": "20+ Years",
+							"value": "twenty_plus",
+							"default": false
+						}
+					]
+				}
+			],
+			"features": [],
+			"images": [],
+			"id": "91",
+			"name": "Solar Energy",
+			"show": true,
+			"subCategories": [
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "116",
+					"name": "Solar Electrical",
+					"show": true
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "117",
+					"name": "Solar Thermal",
+					"show": true
+				}
+			]
+		},
+		{
+			"questions": [],
+			"features": [],
+			"images": [],
+			"id": "79",
+			"name": "Garage Doors",
+			"show": true,
+			"subCategories": [
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "238",
+					"name": "Garage Door Repair",
+					"show": true
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "239",
+					"name": "Garage Floor Coating",
+					"show": true
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "240",
+					"name": "Garage Cabinets and Organization",
+					"show": true
+				}
+			]
+		},
+		{
+			"questions": [],
+			"features": [],
+			"images": [],
+			"id": "67",
+			"name": "Cleaning",
+			"show": true,
+			"subCategories": [
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "27",
+					"name": "Building Site - Preparation and Clearing",
+					"show": true
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "28",
+					"name": "Cleaning - Exterior",
+					"show": true
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "29",
+					"name": "Cleaning - Interior",
+					"show": true
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "30",
+					"name": "Toxicity and Mold Removal",
+					"show": true
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "220",
+					"name": "Waste, Junk, Building Materials and Debris - Remove and Haul",
+					"show": true
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "221",
+					"name": "Water Damage Restoration",
+					"show": true
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "222",
+					"name": "Exterior Power Washing",
+					"show": true
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "31",
+					"name": "Other",
+					"show": false
+				}
+			]
+		},
+		{
+			"questions": [],
+			"features": [],
+			"images": [],
+			"id": "64",
+			"name": "Cabinets and Countertops",
+			"show": true,
+			"subCategories": [
+				{
+					"questions": [
+						{
+							"id": "107",
+							"name": "MappedCategory",
+							"text": "What type of countertop?",
+							"collectionId": null,
+							"parentQuestionId": null,
+							"parentAnswerId": null,
+							"inputType": "Dropdown",
+							"show": true,
+							"required": true,
+							"answers": [
+								{
+									"id": "27",
+									"text": "Stone Slab",
+									"value": "stone_slab_countertops",
+									"default": false
+								},
+								{
+									"id": "28",
+									"text": "Granite",
+									"value": "granite_countertops",
+									"default": false
+								},
+								{
+									"id": "29",
+									"text": "Marble",
+									"value": "marble_countertops",
+									"default": false
+								},
+								{
+									"id": "30",
+									"text": "Quartz",
+									"value": "quartz_countertops",
+									"default": false
+								},
+								{
+									"id": "31",
+									"text": "Slate",
+									"value": "slate_countertops",
+									"default": false
+								},
+								{
+									"id": "32",
+									"text": "Solid Surface",
+									"value": "solid_surface_countertops",
+									"default": false
+								},
+								{
+									"id": "33",
+									"text": "Concrete",
+									"value": "concrete_countertops",
+									"default": false
+								},
+								{
+									"id": "34",
+									"text": "Corian",
+									"value": "corian_countertops",
+									"default": false
+								},
+								{
+									"id": "35",
+									"text": "Formica",
+									"value": "formica_countertops",
+									"default": false
+								},
+								{
+									"id": "36",
+									"text": "Stainless",
+									"value": "stainless_countertops",
+									"default": false
+								},
+								{
+									"id": "37",
+									"text": "Wood or Butcher Block",
+									"value": "wood_or_butcher_block_countertops",
+									"default": false
+								},
+								{
+									"id": "38",
+									"text": "Laminate",
+									"value": "laminate_countertops",
+									"default": false
+								}
+							]
+						},
+						{
+							"id": "108",
+							"name": "other_countertop_materials",
+							"text": "Are you interested in any other countertop materials?",
+							"collectionId": null,
+							"parentQuestionId": null,
+							"parentAnswerId": null,
+							"inputType": "Radio",
+							"show": true,
+							"required": true,
+							"answers": [
+								{
+									"id": "39",
+									"text": "Yes",
+									"value": "true",
+									"default": false
+								},
+								{
+									"id": "40",
+									"text": "No",
+									"value": "false",
+									"default": false
+								}
+							]
+						},
+						{
+							"id": "109",
+							"name": "part_of_larger_remodel",
+							"text": "Is this project part of a larger remodel?",
+							"collectionId": null,
+							"parentQuestionId": null,
+							"parentAnswerId": null,
+							"inputType": "Radio",
+							"show": true,
+							"required": true,
+							"answers": [
+								{
+									"id": "41",
+									"text": "Yes",
+									"value": "true",
+									"default": false
+								},
+								{
+									"id": "42",
+									"text": "No",
+									"value": "false",
+									"default": false
+								}
+							]
+						},
+						{
+							"id": "201",
+							"name": "describe_countertop_project",
+							"text": "What best describes your countertop project?",
+							"collectionId": null,
+							"parentQuestionId": null,
+							"parentAnswerId": null,
+							"inputType": "Dropdown",
+							"show": false,
+							"required": false,
+							"answers": []
+						}
+					],
+					"features": [],
+					"images": [],
+					"id": "17",
+					"name": "Countertops - Install Stone",
+					"show": true
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "213",
+					"name": "Countertops - Install Synthetic/Composite",
+					"show": true
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "214",
+					"name": "Cabinet - Paint or Staining",
+					"show": true
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "215",
+					"name": "Cabinet - Hardware Install",
+					"show": true
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "216",
+					"name": "Countertops - Install (Granite, Marble, Quartz, Quartzsite, etc)",
+					"show": true
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "217",
+					"name": "Countertops - Butcher Block",
+					"show": true
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "218",
+					"name": "Backsplash",
+					"show": true
+				},
+				{
+					"questions": [
+						{
+							"id": "101",
+							"name": "cabinets_location",
+							"text": "Select the location of the cabinets:",
+							"collectionId": null,
+							"parentQuestionId": null,
+							"parentAnswerId": null,
+							"inputType": "Dropdown",
+							"show": true,
+							"required": true,
+							"answers": [
+								{
+									"id": "1",
+									"text": "Kitchen",
+									"value": "kitchen",
+									"default": false
+								},
+								{
+									"id": "2",
+									"text": "Bathroom",
+									"value": "bathroom",
+									"default": false
+								},
+								{
+									"id": "3",
+									"text": "Closet",
+									"value": "closet",
+									"default": false
+								},
+								{
+									"id": "4",
+									"text": "Garage",
+									"value": "garage",
+									"default": false
+								},
+								{
+									"id": "5",
+									"text": "Basement",
+									"value": "basement",
+									"default": false
+								},
+								{
+									"id": "6",
+									"text": "Other",
+									"value": "other",
+									"default": false
+								}
+							]
+						},
+						{
+							"id": "102",
+							"name": "describe_cabinet_project",
+							"text": "What best describes your cabinet project?",
+							"collectionId": null,
+							"parentQuestionId": null,
+							"parentAnswerId": null,
+							"inputType": "Dropdown",
+							"show": true,
+							"required": true,
+							"answers": [
+								{
+									"id": "7",
+									"text": "Install new custom cabinets",
+									"value": "install_custom",
+									"default": false
+								},
+								{
+									"id": "8",
+									"text": "Repair existing cabinets",
+									"value": "repair",
+									"default": false
+								},
+								{
+									"id": "9",
+									"text": "Install new pre-made cabinets",
+									"value": "install_pre-made",
+									"default": false
+								},
+								{
+									"id": "10",
+									"text": "Refinish existing cabinets",
+									"value": "refinish",
+									"default": false
+								},
+								{
+									"id": "11",
+									"text": "Reface existing cabinets",
+									"value": "reface",
+									"default": false
+								}
+							]
+						},
+						{
+							"id": "103",
+							"name": "part_of_larger_remodel",
+							"text": "Is this project part of a larger remodel?",
+							"collectionId": null,
+							"parentQuestionId": null,
+							"parentAnswerId": null,
+							"inputType": "Radio",
+							"show": true,
+							"required": true,
+							"answers": [
+								{
+									"id": "12",
+									"text": "Yes",
+									"value": "true",
+									"default": false
+								},
+								{
+									"id": "13",
+									"text": "No",
+									"value": "false",
+									"default": false
+								}
+							]
+						}
+					],
+					"features": [],
+					"images": [],
+					"id": "13",
+					"name": "Cabinets - Custom Build",
+					"show": true
+				},
+				{
+					"questions": [
+						{
+							"id": "104",
+							"name": "cabinets_location",
+							"text": "Select the location of the cabinets:",
+							"collectionId": null,
+							"parentQuestionId": null,
+							"parentAnswerId": null,
+							"inputType": "Dropdown",
+							"show": true,
+							"required": true,
+							"answers": [
+								{
+									"id": "14",
+									"text": "Kitchen",
+									"value": "kitchen",
+									"default": false
+								},
+								{
+									"id": "15",
+									"text": "Bathroom",
+									"value": "bathroom",
+									"default": false
+								},
+								{
+									"id": "16",
+									"text": "Closet",
+									"value": "closet",
+									"default": false
+								},
+								{
+									"id": "17",
+									"text": "Garage",
+									"value": "garage",
+									"default": false
+								},
+								{
+									"id": "18",
+									"text": "Basement",
+									"value": "basement",
+									"default": false
+								},
+								{
+									"id": "19",
+									"text": "Other",
+									"value": "other",
+									"default": false
+								}
+							]
+						},
+						{
+							"id": "105",
+							"name": "describe_cabinet_project",
+							"text": "What best describes your cabinet project?",
+							"collectionId": null,
+							"parentQuestionId": null,
+							"parentAnswerId": null,
+							"inputType": "Dropdown",
+							"show": true,
+							"required": true,
+							"answers": [
+								{
+									"id": "20",
+									"text": "Install new custom cabinets",
+									"value": "install_custom",
+									"default": false
+								},
+								{
+									"id": "21",
+									"text": "Repair existing cabinets",
+									"value": "repair",
+									"default": false
+								},
+								{
+									"id": "22",
+									"text": "Install new pre-made cabinets",
+									"value": "install_pre-made",
+									"default": false
+								},
+								{
+									"id": "23",
+									"text": "Refinish existing cabinets",
+									"value": "refinish",
+									"default": false
+								},
+								{
+									"id": "24",
+									"text": "Reface existing cabinets",
+									"value": "reface",
+									"default": false
+								}
+							]
+						},
+						{
+							"id": "106",
+							"name": "part_of_larger_remodel",
+							"text": "Is this project part of a larger remodel?",
+							"collectionId": null,
+							"parentQuestionId": null,
+							"parentAnswerId": null,
+							"inputType": "Radio",
+							"show": true,
+							"required": true,
+							"answers": [
+								{
+									"id": "25",
+									"text": "Yes",
+									"value": "true",
+									"default": false
+								},
+								{
+									"id": "26",
+									"text": "No",
+									"value": "false",
+									"default": false
+								}
+							]
+						}
+					],
+					"features": [],
+					"images": [],
+					"id": "14",
+					"name": "Cabinets - Install",
+					"show": true
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "15",
+					"name": "Cabinets - Reface",
+					"show": true
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "16",
+					"name": "Cabinets - Refinish",
+					"show": true
+				},
+				{
+					"questions": [
+						{
+							"id": "110",
+							"name": "cabinets_location",
+							"text": "Select the location of the cabinets:",
+							"collectionId": null,
+							"parentQuestionId": null,
+							"parentAnswerId": null,
+							"inputType": "Dropdown",
+							"show": true,
+							"required": true,
+							"answers": [
+								{
+									"id": "43",
+									"text": "Kitchen",
+									"value": "kitchen",
+									"default": false
+								},
+								{
+									"id": "44",
+									"text": "Bathroom",
+									"value": "bathroom",
+									"default": false
+								},
+								{
+									"id": "45",
+									"text": "Closet",
+									"value": "closet",
+									"default": false
+								},
+								{
+									"id": "46",
+									"text": "Garage",
+									"value": "garage",
+									"default": false
+								},
+								{
+									"id": "47",
+									"text": "Basement",
+									"value": "basement",
+									"default": false
+								},
+								{
+									"id": "48",
+									"text": "Other",
+									"value": "other",
+									"default": false
+								}
+							]
+						},
+						{
+							"id": "111",
+							"name": "describe_cabinet_project",
+							"text": "What best describes your cabinet project?",
+							"collectionId": null,
+							"parentQuestionId": null,
+							"parentAnswerId": null,
+							"inputType": "Dropdown",
+							"show": true,
+							"required": true,
+							"answers": [
+								{
+									"id": "49",
+									"text": "Install new custom cabinets",
+									"value": "install_custom",
+									"default": false
+								},
+								{
+									"id": "50",
+									"text": "Repair existing cabinets",
+									"value": "repair",
+									"default": false
+								},
+								{
+									"id": "51",
+									"text": "Install new pre-made cabinets",
+									"value": "install_pre-made",
+									"default": false
+								},
+								{
+									"id": "52",
+									"text": "Refinish existing cabinets",
+									"value": "refinish",
+									"default": false
+								},
+								{
+									"id": "53",
+									"text": "Reface existing cabinets",
+									"value": "reface",
+									"default": false
+								}
+							]
+						},
+						{
+							"id": "112",
+							"name": "part_of_larger_remodel",
+							"text": "Is this project part of a larger remodel?",
+							"collectionId": null,
+							"parentQuestionId": null,
+							"parentAnswerId": null,
+							"inputType": "Radio",
+							"show": true,
+							"required": true,
+							"answers": [
+								{
+									"id": "54",
+									"text": "Yes",
+									"value": "true",
+									"default": false
+								},
+								{
+									"id": "55",
+									"text": "No",
+									"value": "false",
+									"default": false
+								}
+							]
+						}
+					],
+					"features": [],
+					"images": [],
+					"id": "18",
+					"name": "Other",
+					"show": false
+				}
+			]
+		},
+		{
+			"questions": [],
+			"features": [],
+			"images": [],
+			"id": "81",
+			"name": "HVAC",
+			"show": true,
+			"subCategories": [
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "187",
+					"name": "Install or Replace Central A/C",
+					"show": false
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "188",
+					"name": "Install or Replace Gas or Electric Boiler or Radiator",
+					"show": false
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "75",
+					"name": "Install Oil Boiler or Radiator",
+					"show": true
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "76",
+					"name": "Install Oil Furnace",
+					"show": true
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "77",
+					"name": "Install Swamp Cooler",
+					"show": true
+				},
+				{
+					"questions": [
+						{
+							"id": "115",
+							"name": "describe_needs",
+							"text": "What best describes your need?",
+							"collectionId": null,
+							"parentQuestionId": null,
+							"parentAnswerId": null,
+							"inputType": "Dropdown",
+							"show": true,
+							"required": true,
+							"answers": [
+								{
+									"id": "62",
+									"text": "Consultation: Need to discuss options",
+									"value": "consultation",
+									"default": false
+								},
+								{
+									"id": "63",
+									"text": "Information: Need to educate myself",
+									"value": "information",
+									"default": false
+								},
+								{
+									"id": "64",
+									"text": "Quotes: Need quotes",
+									"value": "quotes",
+									"default": false
+								}
+							]
+						}
+					],
+					"features": [],
+					"images": [],
+					"id": "71",
+					"name": "Install Central A/C",
+					"show": true
+				},
+				{
+					"questions": [
+						{
+							"id": "114",
+							"name": "MappedCategory",
+							"text": "What type of boiler or radiator?",
+							"collectionId": null,
+							"parentQuestionId": null,
+							"parentAnswerId": null,
+							"inputType": "Dropdown",
+							"show": true,
+							"required": true,
+							"answers": [
+								{
+									"id": "59",
+									"text": "Natural Gas",
+									"value": "natural_gas_boiler",
+									"default": false
+								},
+								{
+									"id": "60",
+									"text": "Propane",
+									"value": "propane_gas_boiler",
+									"default": false
+								},
+								{
+									"id": "61",
+									"text": "Electric",
+									"value": "electric_boiler",
+									"default": false
+								}
+							]
+						}
+					],
+					"features": [],
+					"images": [],
+					"id": "72",
+					"name": "Install Gas or Electric Boiler or Radiator",
+					"show": true
+				},
+				{
+					"questions": [
+						{
+							"id": "113",
+							"name": "MappedCategory",
+							"text": "What type of furnace?",
+							"collectionId": null,
+							"parentQuestionId": null,
+							"parentAnswerId": null,
+							"inputType": "Dropdown",
+							"show": true,
+							"required": true,
+							"answers": [
+								{
+									"id": "56",
+									"text": "Natural Gas",
+									"value": "natural_gas_furnace",
+									"default": false
+								},
+								{
+									"id": "57",
+									"text": "Propane",
+									"value": "propane_gas_furnace",
+									"default": false
+								},
+								{
+									"id": "58",
+									"text": "Electric",
+									"value": "electric_furnace",
+									"default": false
+								}
+							]
+						}
+					],
+					"features": [],
+					"images": [],
+					"id": "73",
+					"name": "Install Gas or Electric Furnace",
+					"show": true
+				},
+				{
+					"questions": [
+						{
+							"id": "116",
+							"name": "needs_financing",
+							"text": "Do you need financing?",
+							"collectionId": null,
+							"parentQuestionId": null,
+							"parentAnswerId": null,
+							"inputType": "Radio",
+							"show": true,
+							"required": true,
+							"answers": [
+								{
+									"id": "65",
+									"text": "Yes",
+									"value": "true",
+									"default": false
+								},
+								{
+									"id": "66",
+									"text": "No",
+									"value": "false",
+									"default": false
+								}
+							]
+						}
+					],
+					"features": [],
+					"images": [],
+					"id": "74",
+					"name": "Install Heat Pump",
+					"show": true
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "194",
+					"name": "Clean or Repair Air Ducts & Vents",
+					"show": true
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "195",
+					"name": "Heater Repair and Maintenance",
+					"show": true
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "196",
+					"name": "Install or Replace Ductless Mini-Split System",
+					"show": true
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "193",
+					"name": "Service or Repair Central A/C",
+					"show": true
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "192",
+					"name": "Install or Replace Swamp Cooler",
+					"show": false
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "189",
+					"name": "Install or Replace Furnace",
+					"show": false
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "78",
+					"name": "Other",
+					"show": false
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "190",
+					"name": "Install or Replace Heat Pump",
+					"show": false
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "191",
+					"name": "Install or Replace Boiler or Radiator",
+					"show": false
+				}
+			]
+		},
+		{
+			"questions": [],
+			"features": [],
+			"images": [],
+			"id": "125",
+			"name": "Insulation",
+			"show": true,
+			"subCategories": [
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "137",
+					"name": "Install Batt, Rolled or Reflective Insulation",
+					"show": true
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "138",
+					"name": "Install Blown-In Insulation",
+					"show": true
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "139",
+					"name": "Install Soundproofing Insulation",
+					"show": true
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "140",
+					"name": "Install Spray Foam Insulation",
+					"show": true
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "141",
+					"name": "Other",
+					"show": false
+				}
+			]
+		},
+		{
+			"questions": [
+				{
+					"id": "117",
+					"name": "roof_pitch",
+					"text": "The steepest part of the roof is:",
+					"collectionId": null,
+					"parentQuestionId": null,
+					"parentAnswerId": null,
+					"inputType": "Radio",
+					"show": true,
+					"required": true,
+					"answers": [
+						{
+							"id": "67",
+							"text": "Flat",
+							"value": "flat",
+							"default": false
+						},
+						{
+							"id": "68",
+							"text": "Pitched",
+							"value": "pitched",
+							"default": false
+						}
+					]
+				},
+				{
+					"id": "118",
+					"name": "nature_of_project",
+					"text": "What is the nature of this project?",
+					"collectionId": null,
+					"parentQuestionId": null,
+					"parentAnswerId": null,
+					"inputType": "Dropdown",
+					"show": true,
+					"required": true,
+					"answers": [
+						{
+							"id": "69",
+							"text": "Completely replace roof",
+							"value": "replace",
+							"default": false
+						},
+						{
+							"id": "70",
+							"text": "Install roof on new construction",
+							"value": "install",
+							"default": false
+						},
+						{
+							"id": "71",
+							"text": "Repair existing roof",
+							"value": "repair",
+							"default": false
+						}
+					]
+				},
+				{
+					"id": "119",
+					"name": "main_floor",
+					"text": "The main floor is:",
+					"collectionId": null,
+					"parentQuestionId": null,
+					"parentAnswerId": null,
+					"inputType": "Dropdown",
+					"show": true,
+					"required": true,
+					"answers": [
+						{
+							"id": "72",
+							"text": "less than 500 sq. ft.",
+							"value": "less_than_five_hundred",
+							"default": false
+						},
+						{
+							"id": "73",
+							"text": "500 to 1000 sq. ft.",
+							"value": "five_hundred _to_thousand",
+							"default": false
+						},
+						{
+							"id": "74",
+							"text": "1000 to 1500 sq. ft.",
+							"value": "thousand_sq_ft_to_fifteen_hundred",
+							"default": false
+						},
+						{
+							"id": "75",
+							"text": "1500 to 2000 sq. ft.",
+							"value": "fifteen_hundred_to_two_thousand",
+							"default": false
+						},
+						{
+							"id": "76",
+							"text": "2000 to 2500 sq. ft.",
+							"value": "two_thousand_to_twenty_five_hundred",
+							"default": false
+						},
+						{
+							"id": "77",
+							"text": "greater than 2500 sq. ft.",
+							"value": "greater_than_twenty_five_hundred",
+							"default": false
+						}
+					]
+				}
+			],
+			"features": [],
+			"images": [],
+			"id": "88",
+			"name": "Roofing",
+			"show": true,
+			"subCategories": [
+				{
+					"questions": [
+						{
+							"id": "120",
+							"name": "MappedCategory",
+							"text": "What type of roofing do you need repaired?",
+							"collectionId": null,
+							"parentQuestionId": null,
+							"parentAnswerId": null,
+							"inputType": "Dropdown",
+							"show": true,
+							"required": true,
+							"answers": [
+								{
+									"id": "78",
+									"text": "Asphalt Shingle",
+									"value": "repair_asphalt_shingle",
+									"default": false
+								},
+								{
+									"id": "79",
+									"text": "Natural Slate",
+									"value": "repair_natural_slate",
+									"default": false
+								},
+								{
+									"id": "80",
+									"text": "Wood or Composite",
+									"value": "repair_wood_shake_or_composite",
+									"default": false
+								},
+								{
+									"id": "81",
+									"text": "Metal",
+									"value": "repair_metal_roof",
+									"default": false
+								},
+								{
+									"id": "82",
+									"text": "Tile",
+									"value": "repair_tile_roof",
+									"default": false
+								},
+								{
+									"id": "83",
+									"text": "Flat, Foam, or Single Ply",
+									"value": "repair_flat_foam_single_ply_roof",
+									"default": false
+								}
+							]
+						}
+					],
+					"features": [],
+					"images": [],
+					"id": "108",
+					"name": "Roofing Repair",
+					"show": true
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "102",
+					"name": "Install Flat, Foam, or Single Ply Roofing",
+					"show": true
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "103",
+					"name": "Install Gutters",
+					"show": true
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "104",
+					"name": "Install Metal Roofing",
+					"show": true
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "105",
+					"name": "Install Natural Slate Roofing",
+					"show": true
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "101",
+					"name": "Install Asphalt Shingle Roofing",
+					"show": true
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "106",
+					"name": "Install Traditional Tile Roofing",
+					"show": true
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "107",
+					"name": "Install Wood or Composite Roofing",
+					"show": true
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "211",
+					"name": "Gutter Cleaning",
+					"show": true
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "212",
+					"name": "Gutter Covers, Guards, and Accessories",
+					"show": true
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "210",
+					"name": "Install Solar Roofing",
+					"show": true
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "109",
+					"name": "Other",
+					"show": false
+				}
+			]
+		},
+		{
+			"questions": [],
+			"features": [],
+			"images": [],
+			"id": "85",
+			"name": "Painting",
+			"show": true,
+			"subCategories": [
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "90",
+					"name": "Exterior Painting",
+					"show": true
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "91",
+					"name": "Interior Painting",
+					"show": true
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "92",
+					"name": "Specialty Painting - Faux Finishes",
+					"show": true
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "93",
+					"name": "Specialty Painting - Textures",
+					"show": true
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "250",
+					"name": "Interior Painting - Single Room",
+					"show": true
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "251",
+					"name": "Interior Painting - Multiple Rooms",
+					"show": true
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "252",
+					"name": "Garage Floor Coating",
+					"show": true
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "253",
+					"name": "Staining - Door, Wood, or Small Projects",
+					"show": true
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "254",
+					"name": "Cabinet Painting or Staining",
+					"show": true
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "94",
+					"name": "Other",
+					"show": false
+				}
+			]
+		},
+		{
+			"questions": [],
+			"features": [],
+			"images": [],
+			"id": "87",
+			"name": "Plumbing",
+			"show": true,
+			"subCategories": [
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "97",
+					"name": "Install or Replace a Water Main",
+					"show": true
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "99",
+					"name": "Plumbing Repair",
+					"show": true
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "98",
+					"name": "Install Plumbing for an Addition or Remodel",
+					"show": true
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "95",
+					"name": "Install a Water Heater",
+					"show": true
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "96",
+					"name": "Install or Replace a Sewer Main",
+					"show": true
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "100",
+					"name": "Other",
+					"show": false
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "179",
+					"name": "Plumbing Repair and Maintenance",
+					"show": false
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "180",
+					"name": "Drain Clog and Blockage",
+					"show": false
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "181",
+					"name": "Garbage Disposal",
+					"show": false
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "182",
+					"name": "Water Softener Install",
+					"show": false
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "183",
+					"name": "Water Filtration",
+					"show": false
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "184",
+					"name": "Water Leak Detection",
+					"show": false
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "185",
+					"name": "Install Tankless Water Heater",
+					"show": false
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "186",
+					"name": "Gasline Repair",
+					"show": false
+				}
+			]
+		},
+		{
+			"questions": [],
+			"features": [],
+			"images": [],
+			"id": "90",
+			"name": "Small Projects and Repairs",
+			"show": true,
+			"subCategories": []
+		},
+		{
+			"questions": [],
+			"features": [],
+			"images": [],
+			"id": "75",
+			"name": "Engineers",
+			"show": true,
+			"subCategories": []
+		},
+		{
+			"questions": [],
+			"features": [],
+			"images": [],
+			"id": "69",
+			"name": "Custom Homes",
+			"show": true,
+			"subCategories": []
+		},
+		{
+			"questions": [
+				{
+					"id": "168",
+					"name": "describe_sunroom_project",
+					"text": "What best describes the project?",
+					"collectionId": null,
+					"parentQuestionId": null,
+					"parentAnswerId": null,
+					"inputType": "Dropdown",
+					"show": true,
+					"required": true,
+					"answers": [
+						{
+							"id": "217",
+							"text": "Build a new sunroom",
+							"value": "build_new",
+							"default": false
+						},
+						{
+							"id": "218",
+							"text": "Repair existing sunroom",
+							"value": "repair",
+							"default": false
+						},
+						{
+							"id": "219",
+							"text": "Enclose existing sunroom",
+							"value": "enclose_existing",
+							"default": false
+						},
+						{
+							"id": "220",
+							"text": "Screen in existing porch/patio",
+							"value": "screen_in",
+							"default": false
+						}
+					]
+				}
+			],
+			"features": [],
+			"images": [],
+			"id": "92",
+			"name": "Sunrooms",
+			"show": true,
+			"subCategories": []
+		},
+		{
+			"questions": [],
+			"features": [],
+			"images": [],
+			"id": "93",
+			"name": "Swimming Pools",
+			"show": true,
+			"subCategories": [
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "118",
+					"name": "Build or Install a Swimming Pool",
+					"show": true
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "119",
+					"name": "Remodel a Swimming Pool",
+					"show": true
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "255",
+					"name": "Pool Maintenance and Service",
+					"show": true
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "120",
+					"name": "Other",
+					"show": false
+				}
+			]
+		},
+		{
+			"questions": [],
+			"features": [],
+			"images": [],
+			"id": "62",
+			"name": "Architects",
+			"show": true,
+			"subCategories": []
+		},
+		{
+			"questions": [
+				{
+					"id": "134",
+					"name": "move_shower_bath",
+					"text": "Do you need to move or replace the existing shower or bath?",
+					"collectionId": null,
+					"parentQuestionId": null,
+					"parentAnswerId": null,
+					"inputType": "Radio",
+					"show": true,
+					"required": true,
+					"answers": [
+						{
+							"id": "130",
+							"text": "Yes",
+							"value": "true",
+							"default": false
+						},
+						{
+							"id": "131",
+							"text": "No",
+							"value": "false",
+							"default": false
+						}
+					]
+				},
+				{
+					"id": "135",
+					"name": "move_toilet",
+					"text": "Do you need to move or replace the existing toilet?",
+					"collectionId": null,
+					"parentQuestionId": null,
+					"parentAnswerId": null,
+					"inputType": "Radio",
+					"show": true,
+					"required": true,
+					"answers": [
+						{
+							"id": "132",
+							"text": "Yes",
+							"value": "true",
+							"default": false
+						},
+						{
+							"id": "133",
+							"text": "No",
+							"value": "false",
+							"default": false
+						}
+					]
+				},
+				{
+					"id": "136",
+					"name": "cabinets_vanity",
+					"text": "Do you plan on updating the existing cabinets or vanity?",
+					"collectionId": null,
+					"parentQuestionId": null,
+					"parentAnswerId": null,
+					"inputType": "Radio",
+					"show": true,
+					"required": true,
+					"answers": [
+						{
+							"id": "134",
+							"text": "Yes",
+							"value": "true",
+							"default": false
+						},
+						{
+							"id": "135",
+							"text": "No",
+							"value": "false",
+							"default": false
+						}
+					]
+				},
+				{
+					"id": "137",
+					"name": "bath_countertops",
+					"text": "Do you plan on updating the existing countertops?",
+					"collectionId": null,
+					"parentQuestionId": null,
+					"parentAnswerId": null,
+					"inputType": "Radio",
+					"show": true,
+					"required": true,
+					"answers": [
+						{
+							"id": "136",
+							"text": "Yes",
+							"value": "true",
+							"default": false
+						},
+						{
+							"id": "137",
+							"text": "No",
+							"value": "false",
+							"default": false
+						}
+					]
+				},
+				{
+					"id": "138",
+					"name": "bath_sinks",
+					"text": "Do you plan on updating the existing sinks?",
+					"collectionId": null,
+					"parentQuestionId": null,
+					"parentAnswerId": null,
+					"inputType": "Radio",
+					"show": true,
+					"required": true,
+					"answers": [
+						{
+							"id": "138",
+							"text": "Yes",
+							"value": "true",
+							"default": false
+						},
+						{
+							"id": "139",
+							"text": "No",
+							"value": "false",
+							"default": false
+						}
+					]
+				},
+				{
+					"id": "139",
+					"name": "bath_flooring",
+					"text": "Do you plan on updating the existing flooring?",
+					"collectionId": null,
+					"parentQuestionId": null,
+					"parentAnswerId": null,
+					"inputType": "Radio",
+					"show": true,
+					"required": true,
+					"answers": [
+						{
+							"id": "140",
+							"text": "Yes",
+							"value": "true",
+							"default": false
+						},
+						{
+							"id": "141",
+							"text": "No",
+							"value": "false",
+							"default": false
+						}
+					]
+				},
+				{
+					"id": "140",
+					"name": "bath_floorplan",
+					"text": "Do you plan on changing the existing floorplan?",
+					"collectionId": null,
+					"parentQuestionId": null,
+					"parentAnswerId": null,
+					"inputType": "Radio",
+					"show": true,
+					"required": true,
+					"answers": [
+						{
+							"id": "142",
+							"text": "Yes",
+							"value": "true",
+							"default": false
+						},
+						{
+							"id": "143",
+							"text": "No",
+							"value": "false",
+							"default": false
+						}
+					]
+				},
+				{
+					"id": "205",
+					"name": "bathroom_floor_plan_change",
+					"text": "Will you need to change the bathroom's floor plan?",
+					"collectionId": null,
+					"parentQuestionId": null,
+					"parentAnswerId": null,
+					"inputType": "Dropdown",
+					"show": true,
+					"required": false,
+					"answers": [
+						{
+							"id": "321",
+							"text": "Yes",
+							"value": "true",
+							"default": false
+						},
+						{
+							"id": "322",
+							"text": "No",
+							"value": "false",
+							"default": false
+						},
+						{
+							"id": "323",
+							"text": "Not Sure",
+							"value": "not_sure",
+							"default": false
+						}
+					]
+				},
+				{
+					"id": "206",
+					"name": "bathroom_location",
+					"text": "Where is the Bathroom located?",
+					"collectionId": null,
+					"parentQuestionId": null,
+					"parentAnswerId": null,
+					"inputType": "Dropdown",
+					"show": true,
+					"required": false,
+					"answers": [
+						{
+							"id": "324",
+							"text": "Ground Floor",
+							"value": "ground_floor",
+							"default": false
+						},
+						{
+							"id": "325",
+							"text": "Upstairs",
+							"value": "upstairs",
+							"default": false
+						},
+						{
+							"id": "326",
+							"text": "Basement",
+							"value": "basement",
+							"default": false
+						},
+						{
+							"id": "327",
+							"text": "Other",
+							"value": "other",
+							"default": false
+						}
+					]
+				}
+			],
+			"features": [],
+			"images": [],
+			"id": "63",
+			"name": "Bathroom Remodeling",
+			"show": true,
+			"subCategories": [
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "163",
+					"name": "Bathtub Repair, Resurfacing, Reglazing",
+					"show": true
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "164",
+					"name": "Bathtub to Shower Conversion",
+					"show": true
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "165",
+					"name": "Complete Bathroom Remodel",
+					"show": true
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "166",
+					"name": "Shower Install or Upgrade",
+					"show": true
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "167",
+					"name": "Shower or Tub Liner Installation or Replace",
+					"show": true
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "168",
+					"name": "Vanity, Fixtures, Sinks, Toilets, other",
+					"show": true
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "169",
+					"name": "Walk-In Tub Installation or Conversion",
+					"show": true
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "162",
+					"name": "Bathtub Install or Upgrade",
+					"show": true
+				}
+			]
+		},
+		{
+			"questions": [
+				{
+					"id": "197",
+					"name": "lawn_area_size",
+					"text": "What is approximate size of your lawn area?",
+					"collectionId": null,
+					"parentQuestionId": null,
+					"parentAnswerId": null,
+					"inputType": "Radio",
+					"show": true,
+					"required": true,
+					"answers": [
+						{
+							"id": "316",
+							"text": "Very small (less than 2,500 square feet)",
+							"value": "less_than_twenty_five_hundred",
+							"default": false
+						},
+						{
+							"id": "317",
+							"text": "Small (2,500 to 5,000 square feet)",
+							"value": "two_thousand_to_five_thousand",
+							"default": false
+						},
+						{
+							"id": "318",
+							"text": "Medium (5,000 to 10,000 square feet)",
+							"value": "five_thousand_to_ten_thousand",
+							"default": false
+						},
+						{
+							"id": "319",
+							"text": "Large (10,000 to 20,000 square feet)",
+							"value": "ten_thousand_to_twenty_thousand",
+							"default": false
+						},
+						{
+							"id": "320",
+							"text": "Very large (more than 20,000 square feet - 1/2 acre+)",
+							"value": "greater_than_twenty_thousand",
+							"default": false
+						}
+					]
+				}
+			],
+			"features": [],
+			"images": [],
+			"id": "126",
+			"name": "Lawn Care and Maintenance",
+			"show": true,
+			"subCategories": [
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "160",
+					"name": "Dethatching",
+					"show": true
+				},
+				{
+					"questions": [
+						{
+							"id": "193",
+							"name": "lawn_service_type",
+							"text": "What Lawn Services are needed?",
+							"collectionId": null,
+							"parentQuestionId": null,
+							"parentAnswerId": null,
+							"inputType": "Checkboxes",
+							"show": true,
+							"required": true,
+							"answers": [
+								{
+									"id": "297",
+									"text": "Weed control",
+									"value": "weed_control",
+									"default": false
+								},
+								{
+									"id": "298",
+									"text": "Insect control",
+									"value": "insect_control",
+									"default": false
+								},
+								{
+									"id": "299",
+									"text": "Aeration",
+									"value": "aeration",
+									"default": false
+								},
+								{
+									"id": "300",
+									"text": "Lawn analysis",
+									"value": "lawn_analysis",
+									"default": false
+								},
+								{
+									"id": "301",
+									"text": "Natural fertilizers",
+									"value": "natural_fertilizers",
+									"default": false
+								},
+								{
+									"id": "302",
+									"text": "Seeding",
+									"value": "seeding",
+									"default": false
+								},
+								{
+									"id": "303",
+									"text": "Disease control",
+									"value": "disease_control",
+									"default": false
+								},
+								{
+									"id": "304",
+									"text": "Mineral application",
+									"value": "mineral_application",
+									"default": false
+								}
+							]
+						}
+					],
+					"features": [],
+					"images": [],
+					"id": "157",
+					"name": "Fertilization, Aeration, or Weed Treatments",
+					"show": true
+				},
+				{
+					"questions": [
+						{
+							"id": "194",
+							"name": "lawn_maintain_time_frame",
+							"text": "How often would you like your lawn maintained?",
+							"collectionId": null,
+							"parentQuestionId": null,
+							"parentAnswerId": null,
+							"inputType": "Radio",
+							"show": true,
+							"required": true,
+							"answers": [
+								{
+									"id": "305",
+									"text": "Weekly",
+									"value": "weekly",
+									"default": false
+								},
+								{
+									"id": "306",
+									"text": "Twice a month",
+									"value": "twice_a_month",
+									"default": false
+								},
+								{
+									"id": "307",
+									"text": "Monthly",
+									"value": "monthly",
+									"default": false
+								},
+								{
+									"id": "308",
+									"text": "One time service",
+									"value": "one_time_service",
+									"default": false
+								}
+							]
+						}
+					],
+					"features": [],
+					"images": [],
+					"id": "158",
+					"name": "Mowing and Yard Maintenance",
+					"show": true
+				},
+				{
+					"questions": [
+						{
+							"id": "195",
+							"name": "lawn_seeding_type",
+							"text": "What type of lawn seeding project is this?",
+							"collectionId": null,
+							"parentQuestionId": null,
+							"parentAnswerId": null,
+							"inputType": "Radio",
+							"show": true,
+							"required": true,
+							"answers": [
+								{
+									"id": "309",
+									"text": "Re-seeding existing lawn",
+									"value": "reseeding_existing_lawn",
+									"default": false
+								},
+								{
+									"id": "310",
+									"text": "Seeding new lawn",
+									"value": "seeding_new_lawn",
+									"default": false
+								}
+							]
+						}
+					],
+					"features": [],
+					"images": [],
+					"id": "159",
+					"name": "Seeding or New Sod",
+					"show": true
+				},
+				{
+					"questions": [
+						{
+							"id": "196",
+							"name": "treeshrub_service_type",
+							"text": "Which tree and shrub services do you need?",
+							"collectionId": null,
+							"parentQuestionId": null,
+							"parentAnswerId": null,
+							"inputType": "Checkboxes",
+							"show": true,
+							"required": true,
+							"answers": [
+								{
+									"id": "311",
+									"text": "Basic Maintenance",
+									"value": "basic_maintenance",
+									"default": false
+								},
+								{
+									"id": "312",
+									"text": "Pruning",
+									"value": "pruning",
+									"default": false
+								},
+								{
+									"id": "313",
+									"text": "Fertilizations (includes deep root)",
+									"value": "fertilizations_deep_root",
+									"default": false
+								},
+								{
+									"id": "314",
+									"text": "Disease/Insect Control",
+									"value": "disease_insect_control",
+									"default": false
+								},
+								{
+									"id": "315",
+									"text": "Winter Protection",
+									"value": "winter_protection",
+									"default": false
+								}
+							]
+						}
+					],
+					"features": [],
+					"images": [],
+					"id": "161",
+					"name": "Tree and Shrub Prune and Removal",
+					"show": true
+				}
+			]
+		},
+		{
+			"questions": [],
+			"features": [],
+			"images": [],
+			"id": "78",
+			"name": "Foundations",
+			"show": true,
+			"subCategories": [
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "235",
+					"name": "Foundation or Basement - Waterproofing",
+					"show": true
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "237",
+					"name": "Driveway, Sidewalk, and Patio Repair",
+					"show": true
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "70",
+					"name": "Concrete Foundation - Repair",
+					"show": true
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "236",
+					"name": "Crawl Space Repair",
+					"show": true
+				}
+			]
+		},
+		{
+			"questions": [],
+			"features": [],
+			"images": [],
+			"id": "94",
+			"name": "Tile Work",
+			"show": true,
+			"subCategories": [
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "123",
+					"name": "Tile Repair",
+					"show": true
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "121",
+					"name": "Install Ceramic & Porcelain Tile",
+					"show": true
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "122",
+					"name": "Install Natural Stone Tile",
+					"show": true
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "124",
+					"name": "Other",
+					"show": false
+				}
+			]
+		},
+		{
+			"questions": [],
+			"features": [],
+			"images": [],
+			"id": "73",
+			"name": "Drywall",
+			"show": true,
+			"subCategories": [
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "52",
+					"name": "Install Drywall",
+					"show": true
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "53",
+					"name": "Repair Drywall",
+					"show": true
+				}
+			]
+		},
+		{
+			"questions": [],
+			"features": [],
+			"images": [],
+			"id": "71",
+			"name": "Decorators and Designers",
+			"show": true,
+			"subCategories": [
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "46",
+					"name": "Interior Decorator",
+					"show": true
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "47",
+					"name": "Stage a Home",
+					"show": true
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "44",
+					"name": "Designer - Landscape",
+					"show": true
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "45",
+					"name": "Designer - Residential",
+					"show": true
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "40",
+					"name": "Designer - Bathroom",
+					"show": true
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "41",
+					"name": "Designer - Building",
+					"show": true
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "42",
+					"name": "Designer - Interior Lighting Plan",
+					"show": true
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "43",
+					"name": "Designer - Kitchen",
+					"show": true
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "48",
+					"name": "Other",
+					"show": false
+				}
+			]
+		},
+		{
+			"questions": [],
+			"features": [],
+			"images": [],
+			"id": "95",
+			"name": "Walls",
+			"show": true,
+			"subCategories": [
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "125",
+					"name": "Install Brick, Stone or Block Wall",
+					"show": true
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "126",
+					"name": "Install Plaster",
+					"show": true
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "256",
+					"name": "Retaining Walls",
+					"show": true
+				},
+				{
+					"questions": [],
+					"features": [],
+					"images": [],
+					"id": "127",
+					"name": "Other",
+					"show": false
+				}
+			]
+		}
+	],
+	"contacts": [
+		{
+			"id": "FirstName",
+			"name": "FirstName",
+			"text": "What is your first name?",
+			"collectionId": null,
+			"parentQuestionId": null,
+			"parentAnswerId": null,
+			"inputType": "Text",
+			"show": true,
+			"required": true,
+			"answers": []
+		},
+		{
+			"id": "LastName",
+			"name": "LastName",
+			"text": "What is your last name?",
+			"collectionId": null,
+			"parentQuestionId": null,
+			"parentAnswerId": null,
+			"inputType": "Text",
+			"show": true,
+			"required": true,
+			"answers": []
+		},
+		{
+			"id": "StreetAddress",
+			"name": "StreetAddress",
+			"text": "What is your street address?",
+			"collectionId": null,
+			"parentQuestionId": null,
+			"parentAnswerId": null,
+			"inputType": "Text",
+			"show": true,
+			"required": true,
+			"answers": []
+		},
+		{
+			"id": "City",
+			"name": "City",
+			"text": "What is your city?",
+			"collectionId": null,
+			"parentQuestionId": null,
+			"parentAnswerId": null,
+			"inputType": "Text",
+			"show": true,
+			"required": true,
+			"answers": []
+		},
+		{
+			"id": "State",
+			"name": "State",
+			"text": "What is your state?",
+			"collectionId": null,
+			"parentQuestionId": null,
+			"parentAnswerId": null,
+			"inputType": "Dropdown",
+			"show": true,
+			"required": true,
+			"answers": [
+				{
+					"id": "AK",
+					"text": "AK",
+					"value": "AK",
+					"default": false
+				},
+				{
+					"id": "AL",
+					"text": "AL",
+					"value": "AL",
+					"default": false
+				},
+				{
+					"id": "AR",
+					"text": "AR",
+					"value": "AR",
+					"default": false
+				},
+				{
+					"id": "AZ",
+					"text": "AZ",
+					"value": "AZ",
+					"default": false
+				},
+				{
+					"id": "CA",
+					"text": "CA",
+					"value": "CA",
+					"default": false
+				},
+				{
+					"id": "CO",
+					"text": "CO",
+					"value": "CO",
+					"default": false
+				},
+				{
+					"id": "CT",
+					"text": "CT",
+					"value": "CT",
+					"default": false
+				},
+				{
+					"id": "DC",
+					"text": "DC",
+					"value": "DC",
+					"default": false
+				},
+				{
+					"id": "DE",
+					"text": "DE",
+					"value": "DE",
+					"default": false
+				},
+				{
+					"id": "FL",
+					"text": "FL",
+					"value": "FL",
+					"default": false
+				},
+				{
+					"id": "GA",
+					"text": "GA",
+					"value": "GA",
+					"default": false
+				},
+				{
+					"id": "HI",
+					"text": "HI",
+					"value": "HI",
+					"default": false
+				},
+				{
+					"id": "IA",
+					"text": "IA",
+					"value": "IA",
+					"default": false
+				},
+				{
+					"id": "ID",
+					"text": "ID",
+					"value": "ID",
+					"default": false
+				},
+				{
+					"id": "IL",
+					"text": "IL",
+					"value": "IL",
+					"default": false
+				},
+				{
+					"id": "IN",
+					"text": "IN",
+					"value": "IN",
+					"default": false
+				},
+				{
+					"id": "KS",
+					"text": "KS",
+					"value": "KS",
+					"default": false
+				},
+				{
+					"id": "KY",
+					"text": "KY",
+					"value": "KY",
+					"default": false
+				},
+				{
+					"id": "LA",
+					"text": "LA",
+					"value": "LA",
+					"default": false
+				},
+				{
+					"id": "MA",
+					"text": "MA",
+					"value": "MA",
+					"default": false
+				},
+				{
+					"id": "MD",
+					"text": "MD",
+					"value": "MD",
+					"default": false
+				},
+				{
+					"id": "ME",
+					"text": "ME",
+					"value": "ME",
+					"default": false
+				},
+				{
+					"id": "MI",
+					"text": "MI",
+					"value": "MI",
+					"default": false
+				},
+				{
+					"id": "MN",
+					"text": "MN",
+					"value": "MN",
+					"default": false
+				},
+				{
+					"id": "MO",
+					"text": "MO",
+					"value": "MO",
+					"default": false
+				},
+				{
+					"id": "MS",
+					"text": "MS",
+					"value": "MS",
+					"default": false
+				},
+				{
+					"id": "MT",
+					"text": "MT",
+					"value": "MT",
+					"default": false
+				},
+				{
+					"id": "NC",
+					"text": "NC",
+					"value": "NC",
+					"default": false
+				},
+				{
+					"id": "ND",
+					"text": "ND",
+					"value": "ND",
+					"default": false
+				},
+				{
+					"id": "NE",
+					"text": "NE",
+					"value": "NE",
+					"default": false
+				},
+				{
+					"id": "NH",
+					"text": "NH",
+					"value": "NH",
+					"default": false
+				},
+				{
+					"id": "NJ",
+					"text": "NJ",
+					"value": "NJ",
+					"default": false
+				},
+				{
+					"id": "NM",
+					"text": "NM",
+					"value": "NM",
+					"default": false
+				},
+				{
+					"id": "NV",
+					"text": "NV",
+					"value": "NV",
+					"default": false
+				},
+				{
+					"id": "NY",
+					"text": "NY",
+					"value": "NY",
+					"default": false
+				},
+				{
+					"id": "OH",
+					"text": "OH",
+					"value": "OH",
+					"default": false
+				},
+				{
+					"id": "OK",
+					"text": "OK",
+					"value": "OK",
+					"default": false
+				},
+				{
+					"id": "OR",
+					"text": "OR",
+					"value": "OR",
+					"default": false
+				},
+				{
+					"id": "PA",
+					"text": "PA",
+					"value": "PA",
+					"default": false
+				},
+				{
+					"id": "RI",
+					"text": "RI",
+					"value": "RI",
+					"default": false
+				},
+				{
+					"id": "SC",
+					"text": "SC",
+					"value": "SC",
+					"default": false
+				},
+				{
+					"id": "SD",
+					"text": "SD",
+					"value": "SD",
+					"default": false
+				},
+				{
+					"id": "TN",
+					"text": "TN",
+					"value": "TN",
+					"default": false
+				},
+				{
+					"id": "TX",
+					"text": "TX",
+					"value": "TX",
+					"default": false
+				},
+				{
+					"id": "UT",
+					"text": "UT",
+					"value": "UT",
+					"default": false
+				},
+				{
+					"id": "VA",
+					"text": "VA",
+					"value": "VA",
+					"default": false
+				},
+				{
+					"id": "VT",
+					"text": "VT",
+					"value": "VT",
+					"default": false
+				},
+				{
+					"id": "WA",
+					"text": "WA",
+					"value": "WA",
+					"default": false
+				},
+				{
+					"id": "WI",
+					"text": "WI",
+					"value": "WI",
+					"default": false
+				},
+				{
+					"id": "WV",
+					"text": "WV",
+					"value": "WV",
+					"default": false
+				},
+				{
+					"id": "WY",
+					"text": "WY",
+					"value": "WY",
+					"default": false
+				}
+			]
+		},
+		{
+			"id": "ZipCode",
+			"name": "ZipCode",
+			"text": "What is your zip code?",
+			"collectionId": null,
+			"parentQuestionId": null,
+			"parentAnswerId": null,
+			"inputType": "Text",
+			"show": true,
+			"required": true,
+			"answers": []
+		},
+		{
+			"id": "Phone",
+			"name": "Phone",
+			"text": "What is your phone number?",
+			"collectionId": null,
+			"parentQuestionId": null,
+			"parentAnswerId": null,
+			"inputType": "Text",
+			"show": true,
+			"required": true,
+			"answers": []
+		},
+		{
+			"id": "Email",
+			"name": "Email",
+			"text": "What is your email address?",
+			"collectionId": null,
+			"parentQuestionId": null,
+			"parentAnswerId": null,
+			"inputType": "Text",
+			"show": true,
+			"required": true,
+			"answers": []
+		},
+		{
+			"id": "OptIn",
+			"name": "OptIn",
+			"text": "I would like to be notified of other money-saving offers",
+			"collectionId": null,
+			"parentQuestionId": null,
+			"parentAnswerId": null,
+			"inputType": "Checkbox",
+			"show": true,
+			"required": true,
+			"answers": [
+				{
+					"id": "1",
+					"text": "Yes",
+					"value": "1",
+					"default": false
+				},
+				{
+					"id": "0",
+					"text": "No",
+					"value": "0",
+					"default": false
+				}
+			]
+		}
+	],
+	"collections": []
+}
